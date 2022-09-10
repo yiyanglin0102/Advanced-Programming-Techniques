@@ -1,4 +1,4 @@
-public class North_Gorilla extends Chatacter {
+public class North_Gorilla extends Character {
     North_Gorilla() {
         super();
     }

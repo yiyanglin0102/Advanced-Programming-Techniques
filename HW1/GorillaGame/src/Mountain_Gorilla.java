@@ -1,4 +1,4 @@
-public class Mountain_Gorilla extends Chatacter {
+public class Mountain_Gorilla extends Character {
     Mountain_Gorilla() {
         super();
     }

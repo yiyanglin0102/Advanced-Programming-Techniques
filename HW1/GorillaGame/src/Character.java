@@ -1,4 +1,4 @@
-public class Chatacter {
+public class Character {
     public static int DEFAULT_ANGLE = 45;
     public static int DEFAULT_POWER = 30;
     public static String DEFAULT_NAME = "Player";
@@ -12,7 +12,7 @@ public class Chatacter {
     private int playerThrewTimes = 0;
     private int angle = 0;
 
-    public Chatacter() {
+    public Character() {
         this.name = DEFAULT_NAME;
         this.position_x = 0;
         this.position_y = 0;
@@ -22,7 +22,7 @@ public class Chatacter {
         this.playerThrewTimes = 0;
     }
 
-    public Chatacter(String name, int position_x, int position_y) {
+    public Character(String name, int position_x, int position_y) {
         this.name = name;
         this.position_x = position_x;
         this.position_y = position_y;

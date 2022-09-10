@@ -1,4 +1,4 @@
-public class Long_Arm_Gorilla extends Chatacter {
+public class Long_Arm_Gorilla extends Character {
     Long_Arm_Gorilla() {
         super();
     }
