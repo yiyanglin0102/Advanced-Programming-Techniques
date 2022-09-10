@@ -1,4 +1,4 @@
-public class Roles {
+public class Chatacter {
     
     public static int TOTAL_OF_GAME_THROW = 0;
     private String name = "";
@@ -9,12 +9,12 @@ public class Roles {
     private int position_y = 0;
     private int score = 0;
 
-    public Roles()
+    public Chatacter()
     {
         System.out.println(name);
     }
 
-    public Roles(String name, int position_x, int position_y)
+    public Chatacter(String name, int position_x, int position_y)
     {
         this.name = name;
         this.position_x = position_x;
