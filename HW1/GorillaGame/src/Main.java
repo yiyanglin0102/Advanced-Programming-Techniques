@@ -1,10 +1,13 @@
 public class Main {
+    public static Character role;
     public static void main(String[] args) throws Exception {
 
-        new GameStart(1);
-
+        GameStart a = new GameStart(1);
+        String aaa = a.getStartedPlayer().getSpecialty();
+        System.out.println(aaa);
+        
         // mountain.printINFO();
-        // System.out.println(mountain.getPower());
+        
         // mountain.setPower(1);
         // mountain.printINFO();
         // System.out.println("Hello World!");

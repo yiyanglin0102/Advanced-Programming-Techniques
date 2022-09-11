@@ -1,28 +1,30 @@
 public class GameStart {
     public static int TOTAL_OF_GAME_THROW = 0;
     public final int NUM_OF_PLAYERS = 0;
+    private Character role;
 
     GameStart(int which_character) {
 
         switch (which_character) {
             case 1:
-                new Mountain_Gorilla();
+                role = new Mountain_Gorilla("John", 10, -10);
                 break;
             case 2:
-                new North_Gorilla();
+                role = new North_Gorilla("John", 10, -10);
                 break;
             case 3:
-                new Long_Arm_Gorilla();
+                role = new Long_Arm_Gorilla("John", 10, -10);
                 break;
         }
+
     }
 
-    public GameStart() {
-        this.selectPlayer();
-    }
+    // public GameStart() {
+    //     this.selectPlayer();
+    // }
 
-    public void selectPlayer() {
-
+    public Character getStartedPlayer() {
+        return role;
     }
 
 }

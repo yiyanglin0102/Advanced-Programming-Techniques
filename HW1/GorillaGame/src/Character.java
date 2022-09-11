@@ -1,4 +1,5 @@
 public class Character {
+    public static Character role;
     public static int DEFAULT_ANGLE = 45;
     public static int DEFAULT_POWER = 30;
     public static String DEFAULT_NAME = "Player";
@@ -11,6 +12,7 @@ public class Character {
     private int power = 0;
     private int playerThrewTimes = 0;
     private int angle = 0;
+    public String specialty = "normal bomb";
 
     public Character() {
         this.name = DEFAULT_NAME;
@@ -83,6 +85,10 @@ public class Character {
     public int setAngle(int input_angle) {
         this.angle = input_angle;
         return this.angle;
+    }
+
+    public String getSpecialty() {
+        return specialty;
     }
 
 }

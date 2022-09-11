@@ -4,7 +4,11 @@ public class Mountain_Gorilla extends Character {
     }
     Mountain_Gorilla(String name, int position_x, int position_y) {
         super(name, position_x, position_y);
-        
+        this.setSpecialty();
+    }
+
+    public void setSpecialty() {
+        specialty = "montain_bomb";
     }
 
 }
