@@ -19,10 +19,6 @@ public class GameStart {
 
     }
 
-    // public GameStart() {
-    //     this.selectPlayer();
-    // }
-
     public Character getStartedPlayer() {
         return role;
     }

@@ -8,7 +8,7 @@ public class Mountain_Gorilla extends Character {
     }
 
     public void setSpecialty() {
-        specialty = "montain_bomb";
+        specialty = "Montain_Bomb";
     }
 
 }
