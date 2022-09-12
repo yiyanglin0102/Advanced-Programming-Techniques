@@ -16,7 +16,6 @@ public class GameStart {
                 role = new Long_Arm_Gorilla("John", 10, -10);
                 break;
         }
-
     }
 
     public Character getStartedPlayer() {

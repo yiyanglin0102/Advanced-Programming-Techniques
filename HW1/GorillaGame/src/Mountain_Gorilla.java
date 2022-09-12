@@ -10,5 +10,4 @@ public class Mountain_Gorilla extends Character {
     public void setSpecialty() {
         specialty = "Montain_Bomb";
     }
-
 }

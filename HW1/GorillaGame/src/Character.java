@@ -41,6 +41,7 @@ public class Character {
         System.out.println("Player score: " + this.score);
         System.out.println("Player threw times: " + this.playerThrewTimes);
         System.out.println("Player power: " + this.power);
+        System.out.println("Number of Players: " + NUM_OF_PLAYERS);
     }
 
     public int getPosition_x() {
