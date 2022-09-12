@@ -10,7 +10,7 @@ public class Long_Arm_Gorilla extends Character {
     }
 
     public void setSpecialty() {
-        specialty = "Long-Distance-Bomb";
+        this.specialty = "Long-Distance-Bomb";
     }
 
 }

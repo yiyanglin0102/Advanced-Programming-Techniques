@@ -1,5 +1,7 @@
 public class GameStart {
     public static int TOTAL_OF_GAME_THROW = 0;
+    public static final int DEFAULT_POSITION_X = 100;
+    public static final int DEFAULT_POSITION_Y = 100;
     public final int NUM_OF_PLAYERS = 0;
     private Character role;
 
@@ -16,10 +18,16 @@ public class GameStart {
                 role = new Long_Arm_Gorilla(role_name, position_x, position_y);
                 break;
         }
+
     }
 
-    // whenever a gorilla got created, it will create a object and using static variable
-    // `role` to assigned back to Main file. 
+    GameStart() {
+        role = new Mountain_Gorilla("untitled_name", DEFAULT_POSITION_X, DEFAULT_POSITION_Y);
+    }
+
+    // whenever a gorilla got created, it will create a object and using static
+    // variable
+    // `role` to assigned back to Main file.
     public Character getStartedPlayer() {
         return role;
     }

@@ -1,7 +1,7 @@
 public class Character {
     public static Character role;
-    public static int DEFAULT_ANGLE = 45;
-    public static int DEFAULT_POWER = 30;
+    public static final int DEFAULT_ANGLE = 45;
+    public static final int DEFAULT_POWER = 30;
     public static String DEFAULT_NAME = "Player";
     public static int NUM_OF_PLAYERS;
 
@@ -10,9 +10,11 @@ public class Character {
     private int position_y = 0;
     private int score = 0;
     private int power = 0;
-    private int playerThrewTimes = 0;
+    private int playerThrowTimes = 0;
     private int angle = 0;
-    public String specialty = "normal bomb";
+
+    // specialty should be overridden for each specific gorilla
+    protected String specialty;
 
     public Character() {
         this.name = DEFAULT_NAME;
@@ -21,7 +23,7 @@ public class Character {
         this.score = 0;
         this.power = DEFAULT_POWER;
         NUM_OF_PLAYERS += 1;
-        this.playerThrewTimes = 0;
+        this.playerThrowTimes = 0;
     }
 
     public Character(String name, int position_x, int position_y) {
@@ -31,7 +33,7 @@ public class Character {
         this.score = 0;
         this.power = DEFAULT_POWER;
         NUM_OF_PLAYERS += 1;
-        this.playerThrewTimes = 0;
+        this.playerThrowTimes = 0;
     }
 
     public int getPosition_x() {
@@ -66,7 +68,11 @@ public class Character {
     }
 
     public int getThrewTimes() {
-        return this.playerThrewTimes;
+        return this.playerThrowTimes;
+    }
+
+    public void playerThrows() {
+        this.playerThrowTimes += 1;
     }
 
     public int getAngle() {
@@ -81,6 +87,10 @@ public class Character {
     public String getSpecialty() {
         return specialty;
     }
+    // be overriden for each character
+    public void setSpecialty() {
+        specialty = "Default-Bomb";
+    }
 
     // override the default toString with mem address
     public String toString() {
@@ -89,8 +99,10 @@ public class Character {
         res += "Player position_x: " + this.position_x + "\n";
         res += "Player position_y: " + this.position_y + "\n";
         res += "Player score: " + this.score + "\n";
-        res += "Player threw times: " + this.playerThrewTimes + "\n";
+        res += "Player threw times: " + this.playerThrowTimes + "\n";
         res += "Player power: " + this.power + "\n";
+        res += "Player throw angle: " + this.angle + "\n";
+        res += "Player specialty: " + this.specialty + "\n";
         res += "Number of Players: " + NUM_OF_PLAYERS + "\n";
         return res;
     }
