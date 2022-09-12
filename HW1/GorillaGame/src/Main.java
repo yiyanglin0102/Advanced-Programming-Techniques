@@ -2,14 +2,28 @@ public class Main {
     public static Character role;
 
     public static void main(String[] args) throws Exception {
-        GameStart newRole1_Montain_Gorilla = new GameStart(1);
-        newRole1_Montain_Gorilla.getStartedPlayer().printINFO();
 
-        GameStart newRole2_North_Gorilla = new GameStart(2);
-        newRole2_North_Gorilla.getStartedPlayer().printINFO();
+        /*
+         * In this project,
+         * input number 1 in GameStart means choosing Montain_Gorilla to be
+         * player's role;
+         * input number 2 in GameStart means choosing North_Gorilla to be
+         * player's role;
+         * input number 3 in GameStart means choosing Long_Arm_Gorilla to be
+         * player's role;
+         */
 
-        GameStart newRole3_Long_Arm_Gorilla = new GameStart(3);
-        newRole3_Long_Arm_Gorilla.getStartedPlayer().printINFO();
+        GameStart newRole1_Montain_Gorilla = new GameStart(1, "Justin Bieber", 40, -20);
+        Character role1_info = newRole1_Montain_Gorilla.getStartedPlayer();
+        System.out.println(role1_info);
+
+        GameStart newRole2_North_Gorilla = new GameStart(2, "Johnny Depp", 10, 50);
+        Character role2_info = newRole2_North_Gorilla.getStartedPlayer();
+        System.out.println(role2_info);
+
+        GameStart newRole3_Long_Arm_Gorilla = new GameStart(3, "Jennifer Lawrence", -30, 70);
+        Character role3_info = newRole3_Long_Arm_Gorilla.getStartedPlayer();
+        System.out.println(role3_info);
 
         String montainSpecialty = newRole1_Montain_Gorilla.getStartedPlayer().getSpecialty();
         System.out.println(montainSpecialty);
@@ -19,5 +33,6 @@ public class Main {
 
         String longArmSpecialty = newRole3_Long_Arm_Gorilla.getStartedPlayer().getSpecialty();
         System.out.println(longArmSpecialty);
+
     }
 }

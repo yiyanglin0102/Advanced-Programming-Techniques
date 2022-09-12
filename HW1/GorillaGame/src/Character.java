@@ -34,16 +34,6 @@ public class Character {
         this.playerThrewTimes = 0;
     }
 
-    public void printINFO() {
-        System.out.println("Player name: " + this.name);
-        System.out.println("Player position_x: " + this.position_x);
-        System.out.println("Player position_y: " + this.position_y);
-        System.out.println("Player score: " + this.score);
-        System.out.println("Player threw times: " + this.playerThrewTimes);
-        System.out.println("Player power: " + this.power);
-        System.out.println("Number of Players: " + NUM_OF_PLAYERS);
-    }
-
     public int getPosition_x() {
         return this.position_x;
     }
@@ -92,4 +82,16 @@ public class Character {
         return specialty;
     }
 
+    // override the default toString with mem address
+    public String toString() {
+        String res = "";
+        res += "Player name: " + this.name + "\n";
+        res += "Player position_x: " + this.position_x + "\n";
+        res += "Player position_y: " + this.position_y + "\n";
+        res += "Player score: " + this.score + "\n";
+        res += "Player threw times: " + this.playerThrewTimes + "\n";
+        res += "Player power: " + this.power + "\n";
+        res += "Number of Players: " + NUM_OF_PLAYERS + "\n";
+        return res;
+    }
 }
