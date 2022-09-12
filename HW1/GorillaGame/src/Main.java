@@ -23,6 +23,7 @@ public class Main {
         
         role1.setPower(100);
         System.out.println(role1.getPower());
+        role1.setAngle(60);
         System.out.println(role1.getAngle());
         
         System.out.println(role1.getSpecialty());

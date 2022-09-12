@@ -5,8 +5,13 @@ public class GameStart {
     public final int NUM_OF_PLAYERS = 0;
     private Character role;
 
-    GameStart(int which_character, String role_name, int position_x, int position_y) {
+    // if player do not have given name and position X, Y
+    GameStart() {
+        role = new Mountain_Gorilla("untitled_name", DEFAULT_POSITION_X, DEFAULT_POSITION_Y);
+    }
 
+    // Overlaod constructor
+    GameStart(int which_character, String role_name, int position_x, int position_y) {
         switch (which_character) {
             case 1:
                 role = new Mountain_Gorilla(role_name, position_x, position_y);
@@ -18,18 +23,12 @@ public class GameStart {
                 role = new Long_Arm_Gorilla(role_name, position_x, position_y);
                 break;
         }
-
     }
-
-    GameStart() {
-        role = new Mountain_Gorilla("untitled_name", DEFAULT_POSITION_X, DEFAULT_POSITION_Y);
-    }
-
+    
     // whenever a gorilla got created, it will create a object and using static
     // variable
     // `role` to assigned back to Main file.
     public Character getStartedPlayer() {
         return role;
     }
-
 }

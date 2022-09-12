@@ -24,8 +24,10 @@ public class Character {
         this.power = DEFAULT_POWER;
         NUM_OF_PLAYERS += 1;
         this.playerThrowTimes = 0;
+        this.setSpecialty();
     }
 
+    // Overloading constructors with parameters
     public Character(String name, int position_x, int position_y) {
         this.name = name;
         this.position_x = position_x;
@@ -34,6 +36,7 @@ public class Character {
         this.power = DEFAULT_POWER;
         NUM_OF_PLAYERS += 1;
         this.playerThrowTimes = 0;
+        this.setSpecialty();
     }
 
     public int getPosition_x() {
