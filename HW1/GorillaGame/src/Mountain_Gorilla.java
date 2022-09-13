@@ -11,7 +11,7 @@ public class Mountain_Gorilla extends Character {
         this.setSpecialty();
     }
     
-    // Override Character class parant method
+    // Override Character class parent method
     public void setSpecialty() {
         this.specialty = "Montain-Bomb";
     }

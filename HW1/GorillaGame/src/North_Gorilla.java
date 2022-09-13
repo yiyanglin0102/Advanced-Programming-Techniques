@@ -10,7 +10,7 @@ public class North_Gorilla extends Character {
         super(name, position_x, position_y);
         this.setSpecialty();
     }
-    // Override Character class parant method
+    // Override Character class parent method
     public void setSpecialty() {
         this.specialty = "Iced-Bomb";
     }
