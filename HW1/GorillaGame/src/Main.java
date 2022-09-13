@@ -25,28 +25,27 @@ public class Main {
         System.out.println(role1.getPower());
         role1.setAngle(60);
         System.out.println(role1.getAngle());
-        
         System.out.println(role1.getSpecialty());
         
 
-        // GameStart newRole2_North_Gorilla = new GameStart(2, "Johnny Depp", 10, 50);
-        // Character role2_info = newRole2_North_Gorilla.getStartedPlayer();
-        // System.out.println(role2_info);
+        GameStart newRole2_North_Gorilla = new GameStart(2, "Johnny Depp", 10, 50);
+        Character role2_info = newRole2_North_Gorilla.getStartedPlayer();
+        System.out.println(role2_info);
 
-        // GameStart newRole3_Long_Arm_Gorilla = new GameStart(3, "Jennifer Lawrence", -30, 70);
-        // Character role3_info = newRole3_Long_Arm_Gorilla.getStartedPlayer();
-        // System.out.println(role3_info);
+        GameStart newRole3_Long_Arm_Gorilla = new GameStart(3, "Jennifer Lawrence", -30, 70);
+        Character role3_info = newRole3_Long_Arm_Gorilla.getStartedPlayer();
+        System.out.println(role3_info);
 
-        // GameStart default_new_role = new GameStart();
-        // System.out.println(default_new_role.getStartedPlayer());
+        GameStart default_new_role = new GameStart();
+        System.out.println(default_new_role.getStartedPlayer());
 
-        // String montainSpecialty = newRole1_Montain_Gorilla.getStartedPlayer().getSpecialty();
-        // System.out.println(montainSpecialty);
+        String montainSpecialty = newRole1_Montain_Gorilla.getStartedPlayer().getSpecialty();
+        System.out.println(montainSpecialty);
 
-        // String northSpecialty = newRole2_North_Gorilla.getStartedPlayer().getSpecialty();
-        // System.out.println(northSpecialty);
+        String northSpecialty = newRole2_North_Gorilla.getStartedPlayer().getSpecialty();
+        System.out.println(northSpecialty);
 
-        // String longArmSpecialty = newRole3_Long_Arm_Gorilla.getStartedPlayer().getSpecialty();
-        // System.out.println(longArmSpecialty);
+        String longArmSpecialty = newRole3_Long_Arm_Gorilla.getStartedPlayer().getSpecialty();
+        System.out.println(longArmSpecialty);
     }
 }
