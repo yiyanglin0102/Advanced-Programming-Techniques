@@ -5,8 +5,6 @@ import java.util.ArrayList;
 
 public class Main {
 
-  public static Character role;
-
   public static void main(String[] args) throws Exception {
     // int argc = args.length;
     ArrayList<String> list = new ArrayList<>();
@@ -19,6 +17,7 @@ public class Main {
       FileReader inputFile = new FileReader(s);
       listOfFiles.add(inputFile);
     }
+    
     FileWriter writer = new FileWriter("mergedFile.csv");
     BufferedWriter buffer = new BufferedWriter(writer);
 
@@ -28,7 +27,6 @@ public class Main {
       BufferedReader br = new BufferedReader(f);
       int i;
       buffer.write(String.valueOf(index) + " ");
-      
 
       while ((i = br.read()) != -1) {
         buffer.write((char) i);
@@ -40,13 +38,13 @@ public class Main {
       index += 1;
       buffer.newLine();
 
-      // br.close();
-      // f.close();
+      br.close();
+      f.close();
       System.out.println();
     }
 
-    // writer.close();
     buffer.close();
+    writer.close();
     System.out.println("Success");
   }
 }
