@@ -5,26 +5,45 @@ import java.util.regex.Pattern;
 public class Merge {
 
   public static void main(String[] args) throws Exception {
-    System.out.println(args[1]);
-
-    FileReader inputFile = new FileReader("test4");
-    BufferedReader br = new BufferedReader(inputFile);
-    String line = br.readLine();
-    while (line != null) {
-      if (
-        Pattern
-          .compile(Pattern.quote(args[1]), Pattern.CASE_INSENSITIVE)
-          .matcher(line)
-          .find()
-      ) {
-        String[] namesList = line.split(",");
-        System.out.println(namesList[0]);
-      }
-      
-      line = br.readLine();
-      
+    // int argc = args.length;
+    ArrayList<String> list = new ArrayList<>();
+    for (String s : args) {
+      list.add(s);
     }
 
-    br.close();
+    ArrayList<FileReader> listOfFiles = new ArrayList<>();
+    for (String s : list) {
+      FileReader inputFile = new FileReader(s);
+      listOfFiles.add(inputFile);
+    }
+    
+    FileWriter writer = new FileWriter("mergedFile.csv");
+    BufferedWriter buffer = new BufferedWriter(writer);
+
+    int index = 0;
+
+    for (FileReader f : listOfFiles) {
+      BufferedReader br = new BufferedReader(f);
+      int i;
+      buffer.write(String.valueOf(index) + " ");
+
+      while ((i = br.read()) != -1) {
+        buffer.write((char) i);
+        if ((char) i == '\n') {
+          index += 1;
+          buffer.write(String.valueOf(index) + " ");
+        }
+      }
+      index += 1;
+      buffer.newLine();
+
+      br.close();
+      f.close();
+      System.out.println();
+    }
+
+    buffer.close();
+    writer.close();
+    System.out.println("Success");
   }
 }

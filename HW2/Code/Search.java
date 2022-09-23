@@ -7,7 +7,7 @@ public class Search {
   public static void main(String[] args) throws Exception {
     System.out.println(args[1]);
 
-    FileReader inputFile = new FileReader("test4");
+    FileReader inputFile = new FileReader("mergedFile.csv");
     BufferedReader br = new BufferedReader(inputFile);
     String line = br.readLine();
     while (line != null) {

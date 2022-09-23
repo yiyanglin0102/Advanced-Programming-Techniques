@@ -5,7 +5,7 @@ merge:
 
 search:
 		@echo "searching string..."
-		javac Search.java; java Search mergedFile.csv 0,
+		javac Search.java; java Search mergedFile.csv backers_count
 
 clean:
 		@echo "Cleaning up..."
