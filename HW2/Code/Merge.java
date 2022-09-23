@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.util.regex.Pattern;
 
-public class Search {
+public class Merge {
 
   public static void main(String[] args) throws Exception {
     System.out.println(args[1]);
