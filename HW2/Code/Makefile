@@ -7,6 +7,11 @@ search:
 		@echo "searching string..."
 		javac Search.java; java Search mergedFile.csv $(inputSearch)
 
+history:
+		@echo "history of user input..."
+		javac History.java; java History $(inputSearch)
+
 clean:
 		@echo "Cleaning up..."
 		rm *.class
+		rm .history
