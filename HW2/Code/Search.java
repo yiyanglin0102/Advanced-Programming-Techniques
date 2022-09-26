@@ -35,7 +35,7 @@ public class Search {
 
       br.close();
     } catch (IOException ioe) {
-      System.out.println("Exception caught: No 'mergedFile.csv' found...");
+      System.out.println("Exception caught: No '" + file + "' found...");
     }
   }
 
