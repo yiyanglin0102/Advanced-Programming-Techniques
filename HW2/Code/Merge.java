@@ -16,7 +16,7 @@ public class Merge {
       listOfFiles.add(inputFile);
     }
     
-    FileWriter writer = new FileWriter("mergedFile.csv");
+    FileWriter writer = new FileWriter("./data/mergedFile.csv");
     BufferedWriter buffer = new BufferedWriter(writer);
 
     int index = 0;
@@ -24,13 +24,13 @@ public class Merge {
     for (FileReader f : listOfFiles) {
       BufferedReader br = new BufferedReader(f);
       int i;
-      buffer.write(String.valueOf(index) + " --> ");
+      buffer.write(String.valueOf(index) + " --> , ");
 
       while ((i = br.read()) != -1) {
         buffer.write((char) i);
         if ((char) i == '\n') {
           index += 1;
-          buffer.write(String.valueOf(index) + " --> ");
+          buffer.write(String.valueOf(index) + " --> , ");
         }
       }
       index += 1;
@@ -38,7 +38,7 @@ public class Merge {
 
       br.close();
       f.close();
-      // System.out.println();
+      System.out.println();
     }
 
     buffer.close();

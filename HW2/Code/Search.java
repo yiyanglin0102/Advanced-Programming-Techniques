@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 public class Search {
 
   public static void main(String[] args) throws Exception {
-    String file = "mergedFile.csv";
+    String file = "./data/test4";
     addHistory(args[1]);
 
     search(args[1], file);
@@ -23,7 +23,11 @@ public class Search {
           .matcher(line)
           .find()
       ) {
-        System.out.println(line);
+        String[] tokens = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
+
+        System.out.println("Name of the project " + tokens[23]);
+        System.out.println("Category " + tokens[2]);
+        System.out.println();
       }
 
       line = br.readLine();

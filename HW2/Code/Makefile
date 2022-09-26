@@ -1,11 +1,11 @@
 merge:
 		@echo "Running app..."
-		javac Merge.java; java Merge Kickstarter1.csv Kickstarter2.csv Kickstarter3.csv
-		# javac Merge.java; java Merge test1 test2 test3
+		javac Merge.java; java Merge ./data/Kickstarter1.csv ./data/Kickstarter2.csv ./data/Kickstarter3.csv
+		# javac Merge.java; java Merge ./data/test1 ./data/test2 ./data/test3
 
 search:
 		@echo "searching string..."
-		javac Search.java; java Search mergedFile.csv $(inputSearch)
+		javac Search.java; java Search ./data/mergedFile.csv $(inputSearch)
 
 history:
 		@echo "history of user input..."
