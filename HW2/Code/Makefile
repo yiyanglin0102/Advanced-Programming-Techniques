@@ -13,5 +13,5 @@ history:
 
 clean:
 		@echo "Cleaning up..."
-		rm *.class
-		rm .history
+		rm ./*.class
+		rm ./.history
