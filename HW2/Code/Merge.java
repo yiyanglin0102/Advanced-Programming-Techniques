@@ -4,10 +4,11 @@ import java.util.*;
 public class Merge {
 
   public static void main(String[] args) throws Exception {
-    // int argc = args.length;
+    int argc = args.length;
     ArrayList<String> list = new ArrayList<>();
-    for (String s : args) {
-      list.add(s);
+
+    for (int i = 1; i < argc; i++) {
+      list.add(args[i]);
     }
 
     ArrayList<FileReader> listOfFiles = new ArrayList<>();
@@ -15,8 +16,8 @@ public class Merge {
       FileReader inputFile = new FileReader(s);
       listOfFiles.add(inputFile);
     }
-    
-    FileWriter writer = new FileWriter("./data/mergedFile.csv");
+
+    FileWriter writer = new FileWriter(args[0]);
     BufferedWriter buffer = new BufferedWriter(writer);
 
     int index = 0;
@@ -43,6 +44,7 @@ public class Merge {
 
     buffer.close();
     writer.close();
-    System.out.println("Success");
+    System.out.println("Success!");
+    System.out.println();
   }
 }
