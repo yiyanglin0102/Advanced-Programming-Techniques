@@ -1,9 +1,13 @@
 import java.io.*;
+import java.util.*;
 import java.util.regex.Pattern;
 
 public class History {
 
+  static HashMap<String, ArrayList<String>> mapping = new HashMap<>();
+
   public static void main(String[] args) throws Exception {
+    storeHistory(args[0]);
     checkHistory(args[0]);
   }
 
@@ -14,9 +18,7 @@ public class History {
       int count = 0;
       String line = br.readLine();
       while (line != null) {
-        if (
-          input.toUpperCase().equals(line.split(" ")[1].toUpperCase())
-        ) {
+        if (input.toUpperCase().equals(line.split(" ")[1].toUpperCase())) {
           count += 1;
         }
 
@@ -48,11 +50,38 @@ public class History {
           .find()
       ) {
         String[] result = line.split(" ");
-        System.out.println(result[2] + " " + result[3]);
+        String store = result[2] + " " + result[3];
+
+        System.out.println(store);
       }
 
       line = br.readLine();
     }
     br.close();
+  }
+
+  public static void storeHistory(String input) throws IOException {
+    try {
+      FileReader inputFile = new FileReader(".history");
+      BufferedReader br = new BufferedReader(inputFile);
+
+      String line = br.readLine();
+      while (line != null) {
+        String[] tokens = line.split(" ");
+        if (tokens[0].equals("search")) {
+          if (mapping.containsKey(tokens[1])) {
+            mapping.get(tokens[1]).add(tokens[2] + " " + tokens[3]);
+          } else {
+            ArrayList<String> temp = new ArrayList<>();
+            temp.add(tokens[2] + " " + tokens[3]);
+            mapping.put(tokens[1], temp);
+          }
+        }
+        line = br.readLine();
+      }
+      br.close();
+    } catch (IOException ioe) {
+      System.out.println("Exception caught: No searching history found...");
+    }
   }
 }
