@@ -23,10 +23,13 @@ public class Search {
             .find()
         ) {
           String[] tokens = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
-
-          System.out.println("Line " + tokens[0]);
-          System.out.println("Name of the project " + tokens[25]);
-          System.out.println("Category " + tokens[3]);
+          System.out.println(
+            "Name of Project: " + tokens[tokens.length - 15].replace("\"", "")
+          );
+          System.out.println(
+            "Funding Amount: " + tokens[tokens.length - 2].replace("\"", "")
+          );
+          System.out.println("Category: " + tokens[3].replace("\"", ""));
           System.out.println();
         }
 
