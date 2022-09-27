@@ -1,7 +1,6 @@
 merge:
 		@echo "Merging files into 'mergedFile.csv' ..."
 		javac Merge.java; java Merge ./data/mergedFile.csv ./data/Kickstarter1.csv ./data/Kickstarter2.csv ./data/Kickstarter3.csv
-		# javac Merge.java; java Merge ./data/mergedFile.csv ./data/test1 ./data/test2 ./data/test3
 
 search:
 		@echo "Searching String in 'mergedFile.csv'..."
