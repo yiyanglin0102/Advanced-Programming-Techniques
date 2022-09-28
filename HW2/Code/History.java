@@ -4,6 +4,7 @@ import java.util.regex.Pattern;
 
 public class History {
 
+  // create a HashMap to quickly access the timestamp data
   static HashMap<String, ArrayList<String>> mapping = new HashMap<>();
 
   public static void main(String[] args) throws Exception {
@@ -12,6 +13,8 @@ public class History {
   }
 
   public static void checkHistory(String input) throws IOException {
+
+    //if the '.history' file not exist, the exception will be catched
     try {
       FileReader inputFile = new FileReader(".history");
       BufferedReader br = new BufferedReader(inputFile);
@@ -21,7 +24,6 @@ public class History {
         if (input.toUpperCase().equals(line.split(" ")[1].toUpperCase())) {
           count += 1;
         }
-
         line = br.readLine();
       }
       System.out.println(
@@ -31,13 +33,13 @@ public class History {
       if (count > 0) {
         printTimestamp(input);
       }
-
       br.close();
     } catch (IOException ioe) {
       System.out.println("Exception caught: No searching history found...");
     }
   }
 
+  // restore the timestamp data from HashMap structure and print it out
   public static void printTimestamp(String input) throws IOException {
     FileReader inputFile = new FileReader(".history");
     BufferedReader br = new BufferedReader(inputFile);
@@ -60,6 +62,9 @@ public class History {
     br.close();
   }
 
+  // when it start read '.history' file, it starts storing timestamp data
+  // at the same time, if the search word do not be searched before, it will
+  // create a new key value pair in Hashmap
   public static void storeHistory(String input) throws IOException {
     try {
       FileReader inputFile = new FileReader(".history");

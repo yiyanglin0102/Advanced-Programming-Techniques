@@ -11,17 +11,23 @@ public class Search {
   }
 
   public static void search(String file, String input) throws IOException {
+    
+    // input file tha pass in from args[0], the file which want to search
     try {
       FileReader inputFile = new FileReader(file);
       BufferedReader br = new BufferedReader(inputFile);
       String line = br.readLine();
       while (line != null) {
+
+        // search a certain string that contains some part that includes in each line
         if (
           Pattern
             .compile(Pattern.quote(input), Pattern.CASE_INSENSITIVE)
             .matcher(line)
             .find()
         ) {
+
+          // the quotes in strings will not be split
           String[] tokens = line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
           System.out.println(
             "Name of Project: " + tokens[tokens.length - 15].replace("\"", "")
@@ -42,7 +48,11 @@ public class Search {
     }
   }
 
+  // After each search, this method will will create a line of search with
+  // timestamp or add one line of search if '.history' file does not exist
   public static void addHistory(String input) throws IOException {
+
+    // pass in 'true' to continue write and not override a file
     FileWriter writerHistory = new FileWriter(".history", true);
     Date date = new Date();
     Timestamp timestamp = new Timestamp(date.getTime());
