@@ -13,4 +13,5 @@ history:
 clean:
 		@echo "Cleaning Up..."
 		rm ./*.class
+		rm ./data/mergedFile.csv
 		rm ./.history
