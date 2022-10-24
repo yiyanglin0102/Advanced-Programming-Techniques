@@ -33,5 +33,5 @@ The workspace is structured in follwing:
 
 ## Graph
 
-![graph](./graph.png)
+![Graph](./Graph.png)
 In this graph, we can see that when the number of the articles getting larger, the lucene searching method reduce time significantly comparing to linear search.
