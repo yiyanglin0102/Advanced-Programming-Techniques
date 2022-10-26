@@ -1,0 +1,6 @@
+./.DS_Store
+./cao.txt
+./todayFiles.txt
+./my-script.sh
+./Main.java
+./today_cli.txt
