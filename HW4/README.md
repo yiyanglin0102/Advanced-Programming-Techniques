@@ -1,6 +1,6 @@
 ## Execution
 
-Start executing java codes in `Makefile` with its following targets - `merge`, `search`, `history`, and `clean` in `/Code` repository.
+Start executing java codes in `Makefile` with its following targets - `today` and `clean` in `/Code` repository.
 
 ## Project Structure
 
@@ -8,33 +8,45 @@ Start executing java codes in `Makefile` with its following targets - `merge`, `
 ./HW4
 ├── /Code
 │   ├── Main.java
+│   ├── Makefile
 │   ├── script.sh
 │   └── Files_Created_Today.txt
 │
 ├── Homework_4.pdf
 └── README.md
-
 ```
 
 The workspace is structured in follwing:
 
 - `/Code` : a folder to maintain source codes.
-    - `Merge.java` : In this file, it catches inputs from `args` to gain  arguements from command-line, the first argument is the merged file, the second file and the files after second are the component files. After merging files in one, it also adds indexes shown at the first columns.
-    - `Search.java` : A file to create `.history` in the current folder and search for the keywork input from command-line, and at the same time, it creates a timestamp and write it in `.history`. When it scans a string containing some parts of each line in the input file, it will output the *Name of Project*, *Funding Amount*, *Category*, to show its matchings.
-    - `History.java` : A file to read `.history`. it reads and stores those searching data into a hashmap structure, and output the history search from command-line.
-    - `Makefile` : A file to automate `merge`, `search`, `history`, and `clean` functions.
-    - `/data` : a folder to maintain sources data.
-        - `Kickstarter1.csv` : First example csv data file.
-        - `Kickstarter2.csv` : Second example csv data file.
-        - `Kickstarter3.csv` : Third example csv data file.
+    - `Makefile` : A file to automate `today` and `clean` functions.
+    - `Main.java` : In this file, it catches inputs from `args` to gain  arguements from command-line, the first argument is the `script.sh` file, which is a shell script file that the ProcessBuilder will trigger.
+    - `script.sh` : A shell script file that lists down the files created in the current directory.
+    - `Files_Created_Today.txt` : The listed files will be redirected from the screen into this file by `>`.
+        ```
+        find . -mtime -1 -type f -print | xargs ls -ltr > Files_Created_Today.txt
+        ```
+        - `find` used to search files.
+        - `.` means the current directory that intended to be searched.
+        - `-mtime` is the file modification time.
+        - `-1` means displaying files created in last 24 hrs.
+        - `-type f` represents file type.
+        - `-print` prints the pathname of the current file to standard output.
+        - `|` is a pipe operator that combines arguments.
+        - `-l` following by file mode, number of links, owner name, group name, number of bytes in the file, abbreviated month, day-of-month file was last modified, hour file last modified, minute file last modified, and the pathname.
+        - `-t` sorts the names of files with the same modification timestamp in the same sense as the time sort.
+        - `-r` reverses the order of the sort. 
+        - `>` redirects the output of a command in another file.
+        - `Files_Created_Today.txt` the target file of the output to be saved.
+        
 
+  
 Meanwhile, the compiled output files will be generated in the `.class` extension by default.
 
+## Screenshot
 
-## Graph
-
-![Graph](./Graph.png)
+![Screenshot](./Screenshot.png)
 
 ## Clean up
 
-After executing, type `make clean` to clean up `.class` and `.history` files.
+After execution, type `make clean` to clean up `.class` and `Files_Created_Today.txt` files.
