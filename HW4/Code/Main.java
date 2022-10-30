@@ -1,15 +1,13 @@
 import java.io.*;
-import java.lang.*;
-import java.util.*;
 
 public class Main {
 
   public static void main(String[] args) throws IOException {
     ProcessBuilder pb = new ProcessBuilder();
-    pb.command(new File(".").getCanonicalPath() + "/script.sh");
+    pb.command(new File(".").getCanonicalPath() + "/" + args[0]);
     Process process = pb.start();
     String result = read(process);
-	System.out.println(result);
+    System.out.print(result);
   }
 
   public static String read(Process process) throws IOException {

@@ -1,5 +1,0 @@
--rw-rw-r--@ 1 yiyanglin  staff   812 Oct 26 09:30 ./Main.java
--rw-r--r--@ 1 yiyanglin  staff  6148 Oct 26 09:49 ./.DS_Store
--rwxrwxrwx@ 1 yiyanglin  staff    85 Oct 26 10:01 ./script.sh
--rw-r--r--  1 yiyanglin  staff  1861 Oct 26 10:01 ./Main.class
--rw-r--r--@ 1 yiyanglin  staff     0 Oct 26 10:01 ./Files_Created_Today.txt
