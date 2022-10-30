@@ -1,5 +1,0 @@
--rwxrwxrwx@ 1 yiyanglin  staff    84 Oct 30 10:13 ./script.sh
--rw-r--r--  1 yiyanglin  staff   774 Oct 30 10:21 ./Main.java
--rw-r--r--@ 1 yiyanglin  staff   229 Oct 30 10:27 ./Makefile
--rw-r--r--  1 yiyanglin  staff  1913 Oct 30 11:14 ./Main.class
--rw-r--r--  1 yiyanglin  staff     0 Oct 30 11:14 ./Files_Created_Today.txt
