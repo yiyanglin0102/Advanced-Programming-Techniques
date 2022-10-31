@@ -16,7 +16,7 @@ Start executing java codes in `Makefile` with its following targets - `today` an
 └── README.md
 ```
 
-The workspace is structured in follwing:
+The workspace is structured in following:
 
 - `/Code` : a folder to maintain source codes.
     - `Makefile` : A file to automate `today` and `clean` functions.
