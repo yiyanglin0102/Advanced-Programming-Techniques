@@ -1,0 +1,31 @@
+
+<article mdate="2009-11-15" key="journals/twc/ChenKH09">
+<author>Quan Jun Chen</author>
+<author>Salil S. Kanhere</author>
+<author>Mahbub Hassan</author>
+<title>Analysis of per-node traffic load in multi-hop wireless sensor networks.</title>
+<pages>958-967</pages>
+<year>2009</year>
+<volume>8</volume>
+<journal>IEEE Transactions on Wireless Communications</journal>
+<number>2</number>
+<ee>http://dx.doi.org/10.1109/TWC.2009.080008</ee>
+<url>db/journals/twc/twc8.html#ChenKH09</url>
+</article>
+
+
+
+
+<article mdate="2010-12-17" key="journals/twc/Zeinalpour-YazdiNA10">
+<author>Zolfa Zeinalpour-Yazdi</author>
+<author>Masoumeh Nasiri-Kenari</author>
+<author>Behnaam Aazhang</author>
+<title>Bit error probability analysis of UWB communications with a relay node.</title>
+<pages>802-813</pages>
+<year>2010</year>
+<volume>9</volume>
+<journal>IEEE Transactions on Wireless Communications</journal>
+<number>2</number>
+<ee>http://dx.doi.org/10.1109/TWC.2010.02.090383</ee>
+<url>db/journals/twc/twc9.html#Zeinalpour-YazdiNA10</url>
+</article>
