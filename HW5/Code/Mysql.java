@@ -1,7 +1,7 @@
 import java.io.*;
 import java.sql.*;
 
-public class Test {
+public class Mysql {
 
   public static void main(String[] args) throws Exception {
     try {
