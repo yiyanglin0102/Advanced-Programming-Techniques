@@ -4,30 +4,36 @@ import java.sql.*;
 public class Mysql {
 
   public static void main(String[] args) throws Exception {
-    try {
-        // Connection mysqlConnect = new Connection();
-
-      Connection con = DriverManager.getConnection(
-        "jdbc:mysql://localhost:3306/met622",
+    try (
+      Connection conn = DriverManager.getConnection(
+        "jdbc:mysql://localhost:3306/cs622",
         "root",
         ""
       );
-      System.out.println("--->" + con.toString());
-      Statement stmt = con.createStatement();
-      ResultSet rs = stmt.executeQuery("select * from pet");
-      while (rs.next()) {
-        System.out.println(
-          "row:" +
-          rs.getString(1) +
-          "," +
-          rs.getString(2) +
-          "," +
-          rs.getString(3)
-        );
-      }
-      con.close();
-    } catch (Exception ex) {
-      ex.printStackTrace();
+      Statement stmt = conn.createStatement();
+    ) {
+      String sql1 = "DROP TABLE Pet;";
+      String sql2 =
+        "CREATE TABLE PHDTHESIS " +
+        "(key VARCHAR(30), " +
+        "author VARCHAR(30), " +
+        "title VARCHAR(30), " +
+        "year YEAR(4), " +
+        "school ;" +
+        "pages "
+        ;
+
+
+      String sql3 =
+        "insert into Pet values(\"puffball\",\"nobody\",\"hamster\",\"M\");";
+
+      stmt.executeUpdate(sql1);
+      stmt.executeUpdate(sql2);
+      stmt.executeUpdate(sql3);
+
+      conn.close();
+    } catch (SQLException e) {
+      e.printStackTrace();
     }
   }
 }

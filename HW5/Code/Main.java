@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.*;
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
 
@@ -14,7 +15,38 @@ public class Main {
     //  String result = read(process);
     //  System.out.print(result);
 
-    buildPhDThesisTable(args[0]);
+    buildPhDThesisTable("sample.xml");
+    // buildWWWTable("/Users/yiyanglin/Desktop/CS622/HW5/Code/dblp.xml");
+    // readFile("/Users/yiyanglin/Desktop/CS622/HW5/Code/dblp.xml");
+  }
+
+  public static void readFile(String file) throws IOException {
+    FileInputStream inputStream = null;
+    Scanner sc = null;
+    
+    try {
+      inputStream =
+        new FileInputStream("/Users/yiyanglin/Desktop/CS622/HW5/Code/dblp.xml");
+      sc = new Scanner(inputStream, "UTF-8");
+      while (sc.hasNextLine()) {
+        String line = sc.nextLine();
+        System.out.println(line);
+      }
+      // note that Scanner suppresses exceptions
+      if (sc.ioException() != null) {
+        throw sc.ioException();
+      }
+    } finally {
+      if (inputStream != null) {
+        inputStream.close();
+      }
+      if (sc != null) {
+        sc.close();
+      }
+    }
+
+
+
   }
 
   public static void buildDatabase(String file)
@@ -29,14 +61,12 @@ public class Main {
       xmlStringBuilder.toString().getBytes("UTF-8")
     );
     // Document doc = builder.parse(input);
-
     // Element root = doc.getDocumentElement();
     // FileReader inputFile = new FileReader(file);
     // BufferedReader br = new BufferedReader(inputFile);
     // String line = br.readLine();
 
     // while (line != null) {
-
     //   line = line.replaceAll("\\<.*?\\>", "");
     //   if (line.isEmpty())
     //   {
@@ -44,9 +74,56 @@ public class Main {
     //   }
     //   System.out.println(line);
     //     line = br.readLine();
-
     // }
     // br.close();
+  }
+
+  public static void buildWWWTable(String file) {
+    try {
+      File inputFile = new File(file);
+      DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+      DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+      Document doc = dBuilder.parse(inputFile);
+      doc.getDocumentElement().normalize();
+      System.out.println(
+        "Root element :" + doc.getDocumentElement().getNodeName()
+      );
+
+      //////////////
+      NodeList nList = doc.getElementsByTagName("article");
+      System.out.println("here1 :" + nList.item(0).getNodeName());
+      // Node nNode = nList.item(0);
+      // Element eElement = (Element) nNode;
+      // System.out.println("here2 :" + ((Element) nNode).getElementsByTagName("author").item(0).getTextContent());
+
+      //////////////
+      // for (int temp = 0; temp < nList.getLength(); temp++) {
+      // Node nNode = nList.item(temp);
+      // System.out.println("\nCurrent Element :" + nNode.getNodeName());
+
+      // if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+      // Element eElement = (Element) nNode;
+      // System.out.println(
+      //   "author : " +
+      //   eElement.getElementsByTagName("author").item(0).getTextContent()
+      // );
+      // System.out.println(
+      //   "title : " +
+      //   eElement.getElementsByTagName("title").item(0).getTextContent()
+      // );
+      // System.out.println(
+      //   "year : " +
+      //   eElement.getElementsByTagName("year").item(0).getTextContent()
+      // );
+      // System.out.println(
+      //   "school : " +
+      //   eElement.getElementsByTagName("school").item(0).getTextContent()
+      // );
+      // }
+      // }
+    } catch (Exception e) {
+      e.printStackTrace();
+    }
   }
 
   public static void buildPhDThesisTable(String file) {
@@ -60,7 +137,6 @@ public class Main {
         "Root element :" + doc.getDocumentElement().getNodeName()
       );
       NodeList nList = doc.getElementsByTagName("phdthesis");
-      System.out.println("----------------------------");
 
       for (int temp = 0; temp < nList.getLength(); temp++) {
         Node nNode = nList.item(temp);
