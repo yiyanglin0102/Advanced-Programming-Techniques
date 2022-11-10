@@ -71,4 +71,1359 @@
 
 
     </dblp>
+
+    <inproceedings mdate="2011-08-04" key="conf/euc/ParkKC04">
+        <author>Jaesung Park</author>
+        <author>Beomjoon Kim</author>
+        <author>Yong-Hoon Choi</author>
+        <title>A Performance Evaluation of PPP Multiplexing Within UTRAN.</title>
+        <pages>472-481</pages>
+        <ee>http://dx.doi.org/10.1007/978-3-540-30121-9_45</ee>
+        <year>2004</year>
+        <crossref>conf/euc/2004</crossref>
+        <booktitle>EUC</booktitle>
+        <url>db/conf/euc/euc2004.html#ParkKC04</url>
+    </inproceedings>
+    <inproceedings mdate="2011-08-04" key="conf/euc/WangTL04">
+        <author>Tzone I. Wang</author>
+        <author>Kun Hua Tsai</author>
+        <author>Y. H. Lee</author>
+        <title>Crown: An Efficient and Stable Distributed Resource Lookup Protocol.</title>
+        <pages>1075-1084</pages>
+        <ee>http://dx.doi.org/10.1007/978-3-540-30121-9_103</ee>
+        <year>2004</year>
+        <crossref>conf/euc/2004</crossref>
+        <booktitle>EUC</booktitle>
+        <url>db/conf/euc/euc2004.html#WangTL04</url>
+    </inproceedings>
+    <inproceedings mdate="2011-05-27" key="conf/euc/YeLF10">
+        <author>Jihang Ye</author>
+        <author>Mengyao Liu</author>
+        <author>Cai Fu</author>
+        <title>Trusted Risk Evaluation and Attribute Analysis in Ad-Hoc Networks Security Mechanism based on Projection Pursuit Principal Component Analysis.</title>
+        <pages>492-497</pages>
+        <year>2010</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2010.81</ee>
+        <crossref>conf/euc/2010</crossref>
+        <url>db/conf/euc/euc2010.html#YeLF10</url>
+    </inproceedings>
+    <inproceedings mdate="2011-08-04" key="conf/euc/ChenGY04">
+        <author>Ching-Wen Chen</author>
+        <author>Phui-Si Gan</author>
+        <author>Chao-Hsiang Yang</author>
+        <title>A Rapid Service Discovery Mechanism with Low Bandwidth Requirement in Decentralized Peer-to-Peer Network.</title>
+        <pages>1065-1074</pages>
+        <ee>http://dx.doi.org/10.1007/978-3-540-30121-9_102</ee>
+        <year>2004</year>
+        <crossref>conf/euc/2004</crossref>
+        <booktitle>EUC</booktitle>
+        <url>db/conf/euc/euc2004.html#ChenGY04</url>
+    </inproceedings>
+    <inproceedings mdate="2011-05-27" key="conf/euc/CuiQZL10">
+        <author>Huali Cui</author>
+        <author>Depei Qian</author>
+        <author>Xingjun Zhang</author>
+        <author>Yi Liu</author>
+        <title>Video Streaming over Wireless Mesh Networks with Multi-Gateway Support.</title>
+        <pages>268-272</pages>
+        <year>2010</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2010.132</ee>
+        <crossref>conf/euc/2010</crossref>
+        <url>db/conf/euc/euc2010.html#CuiQZL10</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-01" key="conf/euc/VitabileCLS05">
+        <author>Salvatore Vitabile</author>
+        <author>Vincenzo Conti</author>
+        <author>Giuseppe Lentini</author>
+        <author>Filippo Sorbello</author>
+        <title>An Intelligent Sensor for Fingerprint Recognition.</title>
+        <pages>27-36</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596356_6</ee>
+        <url>db/conf/euc/euc2005.html#VitabileCLS05</url>
+    </inproceedings>
+    <inproceedings mdate="2007-11-27" key="conf/euc/ZengTT07">
+        <author>Gang Zeng</author>
+        <author>Hiroyuki Tomiyama</author>
+        <author>Hiroaki Takada</author>
+        <title>A Software Framework for Energy and Performance Tradeoff in Fixed-Priority Hard Real-Time Embedded Systems.</title>
+        <pages>13-24</pages>
+        <year>2007</year>
+        <crossref>conf/euc/2007</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/978-3-540-77092-3_2</ee>
+        <url>db/conf/euc/euc2007.html#ZengTT07</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/WenL06">
+        <author>Yean-Fu Wen</author>
+        <author>Frank Yeong-Sung Lin</author>
+        <title>Cross-Layer Duty Cycle Scheduling with Data Aggregation Routing in Wireless Sensor Networks.</title>
+        <pages>894-903</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11802167_90</ee>
+        <url>db/conf/euc/euc2006.html#WenL06</url>
+    </inproceedings>
+    <inproceedings mdate="2013-02-28" key="conf/euc/LeeL11">
+        <author>Chul Lee</author>
+        <author>Seung-Ho Lim</author>
+        <title>Caching and Deferred Write of Metadata for Yaffs2 Flash File System.</title>
+        <pages>41-46</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.21</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#LeeL11</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/YapHG06">
+        <author>Wun-She Yap</author>
+        <author>Swee-Huay Heng</author>
+        <author>Bok-Min Goi</author>
+        <title>An Efficient Certificateless Signature Scheme.</title>
+        <pages>322-331</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11807964_33</ee>
+        <url>db/conf/euc/eucw2006.html#YapHG06</url>
+    </inproceedings>
+    <inproceedings mdate="2007-12-03" key="conf/euc/ChunKK07">
+        <author>Seung-Yong Chun</author>
+        <author>Se-Young Kim</author>
+        <author>Ki-Man Kim</author>
+        <title>Underwater Wideband Source Localization Using the Interference Pattern Matching.</title>
+        <pages>515-522</pages>
+        <year>2007</year>
+        <crossref>conf/euc/2007w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/978-3-540-77090-9_47</ee>
+        <url>db/conf/euc/eucw2007.html#ChunKK07</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-01" key="conf/euc/PuDYZ05">
+        <author>Dongbing Pu</author>
+        <author>Changrui Du</author>
+        <author>Zhezhou Yu</author>
+        <author>Chunguang Zhou</author>
+        <title>Design of Face Recognition Door Manager System Based on DSP.</title>
+        <pages>87-97</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596356_12</ee>
+        <url>db/conf/euc/euc2005.html#PuDYZ05</url>
+    </inproceedings>
+    <inproceedings mdate="2011-12-28" key="conf/euc/RittongU11">
+        <author>Chanon Rittong</author>
+        <author>Wipawee Usaha</author>
+        <title>Improving Router Cooperation in Mobile Wireless Sensor Networks Using Reinforcement Learning.</title>
+        <pages>320-325</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.45</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#RittongU11</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-02" key="conf/euc/NakanishiSMH05">
+        <author>Kei Nakanishi</author>
+        <author>Makoto Setozaki</author>
+        <author>Jianhua Ma</author>
+        <author>Runhe Huang</author>
+        <title>A Java-Based RFID Service Framework with Semantic Data Binding Between Real and Cyber Spaces.</title>
+        <pages>365-374</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_38</ee>
+        <url>db/conf/euc/eucw2005.html#NakanishiSMH05</url>
+    </inproceedings>
+    <proceedings mdate="2009-10-15" key="conf/euc/2008-2">
+        <editor>Cheng-Zhong Xu</editor>
+        <editor>Minyi Guo</editor>
+        <title>2008 IEEE/IPIP International Conference on Embedded and Ubiquitous Computing (EUC 2008), Shanghai, China, December 17-20, 2008, Volume II: Workshops</title>
+        <publisher>IEEE Computer Society</publisher>
+        <isbn>978-0-7695-3492-3</isbn>
+        <booktitle>EUC (2)</booktitle>
+        <year>2008</year>
+        <url>db/conf/euc/euc2008-2.html</url>
+    </proceedings>
+
+    <inproceedings mdate="2005-12-02" key="conf/euc/JinCYJ05">
+        <author>Min-Sik Jin</author>
+        <author>Won-Ho Choi</author>
+        <author>Yoon-Sim Yang</author>
+        <author>Min-Soo Jung</author>
+        <title>A Study on Fast JCVM with New Transaction Mechanism and Caching-Buffer Based on Java Card Objects with a High Locality.</title>
+        <pages>91-100</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_10</ee>
+        <url>db/conf/euc/eucw2005.html#JinCYJ05</url>
+    </inproceedings>
+    <inproceedings mdate="2011-12-28" key="conf/euc/ChenY11">
+        <author>Bingcai Chen</author>
+        <author>Lan Yu</author>
+        <title>Design and Implementation of LDMA for Low Earth Orbit Satellite Formation Network.</title>
+        <pages>409-413</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.28</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#ChenY11</url>
+    </inproceedings>
+    <inproceedings mdate="2011-05-27" key="conf/euc/BagaiLT10">
+        <author>Rajiv Bagai</author>
+        <author>Huabo Lu</author>
+        <author>Bin Tang</author>
+        <title>On the Sender Cover Traffic Countermeasure against an Improved Statistical Disclosure Attack.</title>
+        <pages>555-560</pages>
+        <year>2010</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2010.90</ee>
+        <crossref>conf/euc/2010</crossref>
+        <url>db/conf/euc/euc2010.html#BagaiLT10</url>
+    </inproceedings>
+    <inproceedings mdate="2011-08-04" key="conf/euc/BaekP04">
+        <author>Seung-Jin Baek</author>
+        <author>Jong-Tae Park</author>
+        <title>Efficient Micro-Mobility Support for Wireless Network Using Improved Host-Based Routing.</title>
+        <pages>548-557</pages>
+        <ee>http://dx.doi.org/10.1007/978-3-540-30121-9_52</ee>
+        <year>2004</year>
+        <crossref>conf/euc/2004</crossref>
+        <booktitle>EUC</booktitle>
+        <url>db/conf/euc/euc2004.html#BaekP04</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/KimKH06">
+        <author>Kyong Hoon Kim</author>
+        <author>Jong Kim</author>
+        <author>Sung Je Hong</author>
+        <title>
+            Dual-Mode
+            <i>r</i>
+            -Reliable Task Model for Flexible Scheduling in Reliable Real-Time Systems.
+        </title>
+        <pages>308-317</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11802167_32</ee>
+        <url>db/conf/euc/euc2006.html#KimKH06</url>
+    </inproceedings>
+    <inproceedings mdate="2011-12-28" key="conf/euc/GayL11">
+        <author>Valrie Gay</author>
+        <author>Peter Leijdekkers</author>
+        <title>The Good, The Bad and the Ugly about Social Networks for Health Apps.</title>
+        <pages>463-468</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.69</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#GayL11</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-01" key="conf/euc/WangLG05">
+        <author>Guojun Wang</author>
+        <author>Yingjun Lin</author>
+        <author>Minyi Guo</author>
+        <title>A Scalable and Reliable Multiple Home Regions Based Location Service in Mobile Ad Hoc Networks.</title>
+        <pages>550-559</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596356_56</ee>
+        <url>db/conf/euc/euc2005.html#WangLG05</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-02" key="conf/euc/Zhao05">
+        <author>Qiangfu Zhao</author>
+        <title>Learning with Data Streams - An NNTree Based Approach.</title>
+        <pages>519-528</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_54</ee>
+        <url>db/conf/euc/eucw2005.html#Zhao05</url>
+    </inproceedings>
+    <inproceedings mdate="2011-12-28" key="conf/euc/HuangWS11">
+        <author>Xu Huang</author>
+        <author>Shirantha Wijesekera</author>
+        <author>Dharmendra Sharma</author>
+        <title>Analysis of the Experimental Results for Quantum Key Distribution Cryptography in IEEE 802.11 Networks.</title>
+        <pages>338-343</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.18</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#HuangWS11</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/KimKK06">
+        <author>Dong Phil Kim</author>
+        <author>Seok Joo Koh</author>
+        <author>Sang Wook Kim</author>
+        <title>mSCTP-DAC: Dynamic Address Configuration for mSCTP Handover.</title>
+        <pages>244-253</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11802167_26</ee>
+        <url>db/conf/euc/euc2006.html#KimKK06</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/SongJHJ06">
+        <author>Eun-Ha Song</author>
+        <author>Yang-Seung Jeon</author>
+        <author>Sung-Kook Han</author>
+        <author>Young-Sik Jeong</author>
+        <title>Hierarchical and Dynamic Information Management Framework on Grid Computing.</title>
+        <pages>151-161</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11802167_17</ee>
+        <url>db/conf/euc/euc2006.html#SongJHJ06</url>
+    </inproceedings>
+    <inproceedings mdate="2011-08-04" key="conf/euc/AuluckA04">
+        <author>Nitin Auluck</author>
+        <author>Dharma P. Agrawal</author>
+        <title>An Integrated Scheduling Algorithm for Precedence Constrained Hard and Soft Real-Time Tasks on Heterogeneous Multiprocessors.</title>
+        <pages>196-206</pages>
+        <ee>http://dx.doi.org/10.1007/978-3-540-30121-9_19</ee>
+        <year>2004</year>
+        <crossref>conf/euc/2004</crossref>
+        <booktitle>EUC</booktitle>
+        <url>db/conf/euc/euc2004.html#AuluckA04</url>
+    </inproceedings>
+    <inproceedings mdate="2011-12-28" key="conf/euc/BattatK11">
+        <author>Nadia Battat</author>
+        <author>Hamamache Kheddouci</author>
+        <title>HMAN: Hierarchical Monitoring for Ad Hoc Network.</title>
+        <pages>414-419</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.42</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#BattatK11</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-02" key="conf/euc/HongHS05">
+        <author>Sungjune Hong</author>
+        <author>Sunyoung Han</author>
+        <author>Kwanho Song</author>
+        <title>The Extended PARLAY X for an Adaptive Context-Aware Personalized Service in a Ubiquitous Computing Environment.</title>
+        <pages>288-297</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_30</ee>
+        <url>db/conf/euc/eucw2005.html#HongHS05</url>
+    </inproceedings>
+    <inproceedings mdate="2011-12-28" key="conf/euc/ChenC11">
+        <author>Chia-Jung Chen</author>
+        <author>Rong-Guey Chang</author>
+        <title>Thermal-Aware Code Transformation across Functional Units.</title>
+        <pages>300-305</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.70</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#ChenC11</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/TsaurKC08">
+        <author>Maw-Jinn Tsaur</author>
+        <author>Wei-Chi Ku</author>
+        <author>Hao-Rung Chung</author>
+        <title>An Improved Password-Based Authenticated Key Agreement Scheme for Pervasive Applications.</title>
+        <pages>197-201</pages>
+        <year>2008</year>
+        <booktitle>EUC (2)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.17</ee>
+        <crossref>conf/euc/2008-2</crossref>
+        <url>db/conf/euc/euc2008-2.html#TsaurKC08</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/WuP06">
+        <author>Hui Wu</author>
+        <author>Sridevan Parameswaran</author>
+        <title>Minimising the Energy Consumption of Real-Time Tasks with Precedence Constraints on a Single Processor.</title>
+        <pages>45-56</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11802167_7</ee>
+        <url>db/conf/euc/euc2006.html#WuP06</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/LiS08">
+        <author>Ze Li</author>
+        <author>Haiying Shen</author>
+        <title>A Direction Based Geographic Routing Scheme for Intermittently Connected Mobile Networks.</title>
+        <pages>359-365</pages>
+        <year>2008</year>
+        <booktitle>EUC (1)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.159</ee>
+        <crossref>conf/euc/2008-1</crossref>
+        <url>db/conf/euc/euc2008-1.html#LiS08</url>
+    </inproceedings>
+    <inproceedings mdate="2011-08-04" key="conf/euc/WangKZ04">
+        <author>Sheng-De Wang</author>
+        <author>Hsuen-Ling Ko</author>
+        <author>Yung-Yu Zhuang</author>
+        <title>Japster: An Improved Peer-to-Peer Network Architecture.</title>
+        <pages>1044-1054</pages>
+        <ee>http://dx.doi.org/10.1007/978-3-540-30121-9_100</ee>
+        <year>2004</year>
+        <crossref>conf/euc/2004</crossref>
+        <booktitle>EUC</booktitle>
+        <url>db/conf/euc/euc2004.html#WangKZ04</url>
+    </inproceedings>
+    <inproceedings mdate="2011-08-04" key="conf/euc/LiRLY04">
+        <author>Baiyan Li</author>
+        <author>Ruonan Rao</author>
+        <author>Minglu Li</author>
+        <author>Jinyuan You</author>
+        <title>A Grid-Based Application Delivery Toolkit for Ubiquitous Computing.</title>
+        <pages>1034-1043</pages>
+        <ee>http://dx.doi.org/10.1007/978-3-540-30121-9_99</ee>
+        <year>2004</year>
+        <crossref>conf/euc/2004</crossref>
+        <booktitle>EUC</booktitle>
+        <url>db/conf/euc/euc2004.html#LiRLY04</url>
+    </inproceedings>
+    <inproceedings mdate="2011-08-04" key="conf/euc/HuaPH04">
+        <author>Kien A. Hua</author>
+        <author>Rui Peng</author>
+        <author>Georgiana L. Hamza-Lup</author>
+        <title>Dissemination of Sensor Data over the Internet.</title>
+        <pages>745-754</pages>
+        <ee>http://dx.doi.org/10.1007/978-3-540-30121-9_71</ee>
+        <year>2004</year>
+        <crossref>conf/euc/2004</crossref>
+        <booktitle>EUC</booktitle>
+        <url>db/conf/euc/euc2004.html#HuaPH04</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/BanCC06">
+        <author>Se Youn Ban</author>
+        <author>Seong Gon Choi</author>
+        <author>Jun Kyun Choi</author>
+        <title>An Efficient End-to-End QoS Supporting Algorithm in NGN Using Optimal Flows and Measurement Feed-Back for Ubiquitous and Distributed Applications.</title>
+        <pages>570-578</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11807964_58</ee>
+        <url>db/conf/euc/eucw2006.html#BanCC06</url>
+    </inproceedings>
+    <inproceedings mdate="2011-12-28" key="conf/euc/BelwalC11">
+        <author>Chaitanya Belwal</author>
+        <author>Albert M. K. Cheng</author>
+        <title>Partitioned Scheduling of P-FRP in Symmetric Homogenous Multiprocessors.</title>
+        <pages>47-54</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.55</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#BelwalC11</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/ShigemotoKN08">
+        <author>Koji Shigemoto</author>
+        <author>Kensuke Kawakami</author>
+        <author>Koji Nakano</author>
+        <title>Accelerating Montgomery Modulo Multiplication for Redundant Radix-64k Number System on the FPGA Using Dual-Port Block RAMs.</title>
+        <pages>44-51</pages>
+        <year>2008</year>
+        <booktitle>EUC (1)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.30</ee>
+        <crossref>conf/euc/2008-1</crossref>
+        <url>db/conf/euc/euc2008-1.html#ShigemotoKN08</url>
+    </inproceedings>
+    <inproceedings mdate="2011-08-04" key="conf/euc/Yamakami04">
+        <author>Toshihiko Yamakami</author>
+        <title>Ubiquitous Computing Literacy: A New Challenge for Social Computing.</title>
+        <pages>712-723</pages>
+        <ee>http://dx.doi.org/10.1007/978-3-540-30121-9_68</ee>
+        <year>2004</year>
+        <crossref>conf/euc/2004</crossref>
+        <booktitle>EUC</booktitle>
+        <url>db/conf/euc/euc2004.html#Yamakami04</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/TianHD08">
+        <author>Biming Tian</author>
+        <author>Song Han</author>
+        <author>Tharam S. Dillon</author>
+        <title>A Self-Healing and Mutual-Healing Key Distribution Scheme Using Bilinear Pairings for Wireless Networks.</title>
+        <pages>208-215</pages>
+        <year>2008</year>
+        <booktitle>EUC (2)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.36</ee>
+        <crossref>conf/euc/2008-2</crossref>
+        <url>db/conf/euc/euc2008-2.html#TianHD08</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/PenzW06">
+        <author>Stefan Penz</author>
+        <author>Martin Wenig</author>
+        <title>Bridging Nodes Density: A Connection Stability Heuristic for Dynamic Ad-Hoc Networks.</title>
+        <pages>672-681</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11802167_68</ee>
+        <url>db/conf/euc/euc2006.html#PenzW06</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/DuR08">
+        <author>Bing Du</author>
+        <author>Chun Ruan</author>
+        <title>Robust Feedback Control Scheduling in Distributed Embedded Real-Time Systems.</title>
+        <pages>90-96</pages>
+        <year>2008</year>
+        <booktitle>EUC (1)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.107</ee>
+        <crossref>conf/euc/2008-1</crossref>
+        <url>db/conf/euc/euc2008-1.html#DuR08</url>
+    </inproceedings>
+    <inproceedings mdate="2011-10-28" key="conf/euc/GuZLZQ05">
+        <author>Yu Gu 0003</author>
+        <author>Wei Zhang</author>
+        <author>Hengchang Liu</author>
+        <author>Baohua Zhao</author>
+        <author>Yugui Qu</author>
+        <title>Energy-Efficient Target Localization Based on a Prediction Model.</title>
+        <pages>1178-1190</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_120</ee>
+        <url>db/conf/euc/eucw2005.html#GuZLZQ05</url>
+    </inproceedings>
+    <inproceedings mdate="2011-12-28" key="conf/euc/HendriksGB11">
+        <author>Martijn Hendriks</author>
+        <author>Marc Geilen</author>
+        <author>Twan Basten</author>
+        <title>Pareto Analysis with Uncertainty.</title>
+        <pages>189-196</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.54</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#HendriksGB11</url>
+    </inproceedings>
+    <inproceedings mdate="2011-12-28" key="conf/euc/BouabeneST11">
+        <author>Ghazi Bouabene</author>
+        <author>Manolis Sifalakis</author>
+        <author>Christian F. Tschudin</author>
+        <title>Greedy Routing on Hierarchical Clusters.</title>
+        <pages>79-86</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.40</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#BouabeneST11</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/KimK06">
+        <author>Seong-Whan Kim</author>
+        <author>Ki-Hong Ko</author>
+        <title>Kalman Filter Based Dead Reckoning Algorithm for Minimizing Network Traffic Between Mobile Nodes in Wireless GRID.</title>
+        <pages>162-170</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11802167_18</ee>
+        <url>db/conf/euc/euc2006.html#KimK06</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/JeongCC06">
+        <author>Jongpil Jeong</author>
+        <author>Min Young Chung</author>
+        <author>Hyunseung Choo</author>
+        <title>Secure User Authentication Mechanism in Digital Home Network Environments.</title>
+        <pages>345-354</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11802167_36</ee>
+        <url>db/conf/euc/euc2006.html#JeongCC06</url>
+    </inproceedings>
+    <inproceedings mdate="2007-11-27" key="conf/euc/MurataKHIN07">
+        <author>Yu Murata</author>
+        <author>Wataru Kanda</author>
+        <author>Kensuke Hanaoka</author>
+        <author>Hiroo Ishikawa</author>
+        <author>Tatsuo Nakajima</author>
+        <title>A Study on Asymmetric Operating Systems on Symmetric Multiprocessors.</title>
+        <pages>182-195</pages>
+        <year>2007</year>
+        <crossref>conf/euc/2007</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/978-3-540-77092-3_17</ee>
+        <url>db/conf/euc/euc2007.html#MurataKHIN07</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-02" key="conf/euc/DingE05">
+        <author>Yan Annie Ding</author>
+        <author>David Everitt</author>
+        <title>Design of Integrated Routing System for Mobile Ad Hoc Networks Overlaying Peer-to-Peer Applications.</title>
+        <pages>663-672</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_69</ee>
+        <url>db/conf/euc/eucw2005.html#DingE05</url>
+    </inproceedings>
+    <inproceedings mdate="2011-12-28" key="conf/euc/SorbiCCTF11">
+        <author>Laura Sorbi</author>
+        <author>Graziano Pio De Capua</author>
+        <author>El Hadi Cherkaoui</author>
+        <author>Laura Toni</author>
+        <author>Jean-Guy Fontaine</author>
+        <title>On the Performances of a Target Detection Algorithm in Underwater Sensor Networks with Aqua-Sim.</title>
+        <pages>428-432</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.83</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#SorbiCCTF11</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-28" key="conf/euc/HuangLTCJ08">
+        <author>Yu Huang 0002</author>
+        <author>Bo Liu</author>
+        <author>XianPing Tao</author>
+        <author>Jiannong Cao</author>
+        <author>Beihong Jin</author>
+        <title>An Analytical Model for Broadcasting by Self Pruning in Wireless Ad Hoc Networks.</title>
+        <pages>571-576</pages>
+        <year>2008</year>
+        <booktitle>EUC (2)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.121</ee>
+        <crossref>conf/euc/2008-2</crossref>
+        <url>db/conf/euc/euc2008-2.html#HuangLTCJ08</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/ParkLC06">
+        <author>Hyemee Park</author>
+        <author>Tae-Jin Lee</author>
+        <author>Hyunseung Choo</author>
+        <title>Virtual Hierarchical Architecture Integrating Mobile IPv6 and MANETs for Internet Connectivity.</title>
+        <pages>1098-1107</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11802167_110</ee>
+        <url>db/conf/euc/euc2006.html#ParkLC06</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-01" key="conf/euc/ChoiLB05">
+        <author>O-Hoon Choi</author>
+        <author>Jung-Eun Lim</author>
+        <author>Doo-Kwon Baik</author>
+        <title>MDR-Based Framework for Sharing Metadata in Ubiquitous Computing Environment.</title>
+        <pages>858-866</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596356_85</ee>
+        <url>db/conf/euc/euc2005.html#ChoiLB05</url>
+    </inproceedings>
+    <inproceedings mdate="2011-05-27" key="conf/euc/BushagerZ10">
+        <author>Aisha Bushager</author>
+        <author>Mark Zwolinski</author>
+        <title>Modelling Smart Card Security Protocols in SystemC TLM.</title>
+        <pages>637-643</pages>
+        <year>2010</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2010.102</ee>
+        <crossref>conf/euc/2010</crossref>
+        <url>db/conf/euc/euc2010.html#BushagerZ10</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-01" key="conf/euc/Yamane05">
+        <author>Satoshi Yamane</author>
+        <title>Timed Weak Simulation Verification and Its Application to Stepwise Refinement of Real-Time Software.</title>
+        <pages>381-394</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596356_40</ee>
+        <url>db/conf/euc/euc2005.html#Yamane05</url>
+    </inproceedings>
+    <inproceedings mdate="2011-05-27" key="conf/euc/SeoHLJL10">
+        <author>Chungman Seo</author>
+        <author>Youngshin Han</author>
+        <author>Haeyoung Lee</author>
+        <author>Jason J. Jung</author>
+        <author>Chilgee Lee</author>
+        <title>Implementation of Cloud Computing Environment for Discrete Event System Simulation using Service Oriented Architecture.</title>
+        <pages>359-362</pages>
+        <year>2010</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2010.60</ee>
+        <crossref>conf/euc/2010</crossref>
+        <url>db/conf/euc/euc2010.html#SeoHLJL10</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/JiangHJL08">
+        <author>Wenbin Jiang</author>
+        <author>Chong Huang</author>
+        <author>Hai Jin</author>
+        <author>Xiaofei Liao</author>
+        <title>A New Proxy Scheme for Large-Scale P2P VoD System.</title>
+        <pages>512-518</pages>
+        <year>2008</year>
+        <booktitle>EUC (1)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.148</ee>
+        <crossref>conf/euc/2008-1</crossref>
+        <url>db/conf/euc/euc2008-1.html#JiangHJL08</url>
+    </inproceedings>
+    <inproceedings mdate="2014-11-26" key="conf/euc/SalemBS14">
+        <author>Aicha Ben Salem</author>
+        <author>Seifeddine Bouallegue</author>
+        <author>Kaouthar Sethom</author>
+        <title>A QoS Based Resource Allocation in Femtocell Networks.</title>
+        <pages>299-303</pages>
+        <year>2014</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2014.51</ee>
+        <crossref>conf/euc/2014</crossref>
+        <url>db/conf/euc/euc2014.html#SalemBS14</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-02" key="conf/euc/GuSXC05">
+        <author>Hongliang Gu</author>
+        <author>Yuanchun Shi</author>
+        <author>Guangyou Xu</author>
+        <author>Yu Chen</author>
+        <title>A Multi-agent Software Platform Accommodating Location-Awareness for Smart Space.</title>
+        <pages>51-60</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_6</ee>
+        <url>db/conf/euc/eucw2005.html#GuSXC05</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-01" key="conf/euc/TesanovicANNH05">
+        <author>Aleksandra Tesanovic</author>
+        <author>Mehdi Amirijoo</author>
+        <author>Daniel Nilsson</author>
+        <author>Henrik Norin</author>
+        <author>Jrgen Hansson</author>
+        <title>Ensuring Real-Time Performance Guarantees in Dynamically Reconfigurable Embedded Systems.</title>
+        <pages>131-141</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596356_16</ee>
+        <url>db/conf/euc/euc2005.html#TesanovicANNH05</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/LeeCP06">
+        <author>Sang-Won Lee</author>
+        <author>Won-Kyoung Choi</author>
+        <author>Dong-Joo Park</author>
+        <title>FAST: An Efficient Flash Translation Layer for Flash Memory.</title>
+        <pages>879-887</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11807964_88</ee>
+        <url>db/conf/euc/eucw2006.html#LeeCP06</url>
+    </inproceedings>
+    <inproceedings mdate="2014-11-26" key="conf/euc/AlsafrjalaniG14">
+        <author>Mohamad Hammam Alsafrjalani</author>
+        <author>Ann Gordon-Ross</author>
+        <title>Dynamic Scheduling for Reduced Energy in Configuration-Subsetted Heterogeneous Multicore Systems.</title>
+        <pages>17-24</pages>
+        <year>2014</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2014.12</ee>
+        <crossref>conf/euc/2014</crossref>
+        <url>db/conf/euc/euc2014.html#AlsafrjalaniG14</url>
+    </inproceedings>
+    <inproceedings mdate="2006-04-04" key="conf/euc/PhamLL05">
+        <author>Kim Anh Pham Ngoc</author>
+        <author>Young-Koo Lee</author>
+        <author>Sungyoung Lee</author>
+        <title>Middleware Architecture for Context Knowledge Discovery in Ubiquitous Computing.</title>
+        <pages>1177-1188</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596356_116</ee>
+        <url>db/conf/euc/euc2005.html#PhamLL05</url>
+    </inproceedings>
+    <inproceedings mdate="2007-12-03" key="conf/euc/ChangKKH07">
+        <author>Hangbae Chang</author>
+        <author>Moonoh Kim</author>
+        <author>Hyuk-jun Kwon</author>
+        <author>Byungwan Han</author>
+        <title>The Case Study of Information Security System for International Airports.</title>
+        <pages>22-30</pages>
+        <year>2007</year>
+        <crossref>conf/euc/2007w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/978-3-540-77090-9_3</ee>
+        <url>db/conf/euc/eucw2007.html#ChangKKH07</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/DongZOGG08">
+        <author>Mianxiong Dong</author>
+        <author>Gongwei Zhang</author>
+        <author>Kaoru Ota</author>
+        <author>Song Guo</author>
+        <author>Minyi Guo</author>
+        <title>An Improved Design of the Ubiquitous Learning System Based on Sensor Networks.</title>
+        <pages>703-708</pages>
+        <year>2008</year>
+        <booktitle>EUC (2)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.169</ee>
+        <crossref>conf/euc/2008-2</crossref>
+        <url>db/conf/euc/euc2008-2.html#DongZOGG08</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/TrabelsiUR08">
+        <author>Slim Trabelsi</author>
+        <author>Guillaume Urvoy-Keller</author>
+        <author>Yves Roudier</author>
+        <title>On the Impact of DoS Attacks on Secure Service Discovery.</title>
+        <pages>532-537</pages>
+        <year>2008</year>
+        <booktitle>EUC (2)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.182</ee>
+        <crossref>conf/euc/2008-2</crossref>
+        <url>db/conf/euc/euc2008-2.html#TrabelsiUR08</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/YuanMZZ08">
+        <author>Ting Yuan</author>
+        <author>Jianqing Ma</author>
+        <author>YiPing Zhong</author>
+        <author>Shiyong Zhang</author>
+        <title>Efficient Self-Healing Key Distribution with Limited Group Membership for Communication-Constrained Networks.</title>
+        <pages>453-458</pages>
+        <year>2008</year>
+        <booktitle>EUC (1)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.23</ee>
+        <crossref>conf/euc/2008-1</crossref>
+        <url>db/conf/euc/euc2008-1.html#YuanMZZ08</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-02" key="conf/euc/LeeLLPN05">
+        <author>YoungLok Lee</author>
+        <author>HyungHyo Lee</author>
+        <author>Seungyong Lee</author>
+        <author>HeeMan Park</author>
+        <author>BongNam Noh</author>
+        <title>The Design and Implementation of Secure Event Manager Using SPKI/SDSI Certificate.</title>
+        <pages>490-498</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_51</ee>
+        <url>db/conf/euc/eucw2005.html#LeeLLPN05</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/GuoSHL06">
+        <author>Bing Guo</author>
+        <author>Yan Shen</author>
+        <author>Yue Huang</author>
+        <author>Zhishu Li</author>
+        <title>A Novel Discrete Hopfield Neural Network Approach for Hardware-Software Partitioning of RTOS in the SoC.</title>
+        <pages>888-897</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11807964_89</ee>
+        <url>db/conf/euc/eucw2006.html#GuoSHL06</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-01" key="conf/euc/ChoiHCKKK05">
+        <author>Byeong-Doo Choi</author>
+        <author>Min-Cheol Hwang</author>
+        <author>Jun-Ki Cho</author>
+        <author>Jin-Sam Kim</author>
+        <author>Jin-Hyung Kim</author>
+        <author>Sung-Jea Ko</author>
+        <title>Realtime H.264 Encoding System Using Fast Motion Estimation and Mode Decision.</title>
+        <pages>174-183</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596356_20</ee>
+        <url>db/conf/euc/euc2005.html#ChoiHCKKK05</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/DiazSC06">
+        <author>Jess Arturo Prez Daz</author>
+        <author>Victor Hugo Zate Silva</author>
+        <author>Christian Cabrera</author>
+        <title>A Network and Data Link Layer QoS Model to Improve Traffic Performance.</title>
+        <pages>224-233</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11807964_23</ee>
+        <url>db/conf/euc/eucw2006.html#DiazSC06</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/KimSJC06">
+        <author>Min-Joung Kim</author>
+        <author>Soo-Young Suk</author>
+        <author>Ho-Youl Jung</author>
+        <author>Hyun-Yeol Chung</author>
+        <title>A Speech and Character Combined Recognition Engine for Mobile Devices.</title>
+        <pages>549-559</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11802167_56</ee>
+        <url>db/conf/euc/euc2006.html#KimSJC06</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/ZhangZ08">
+        <author>Longjun Zhang</author>
+        <author>Tao Zou</author>
+        <title>An Improved Key Management Scheme for WEP.</title>
+        <pages>234-239</pages>
+        <year>2008</year>
+        <booktitle>EUC (2)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.67</ee>
+        <crossref>conf/euc/2008-2</crossref>
+        <url>db/conf/euc/euc2008-2.html#ZhangZ08</url>
+    </inproceedings>
+    <inproceedings mdate="2007-11-27" key="conf/euc/VlaeminckWTDD07">
+        <author>Koert Vlaeminck</author>
+        <author>Tim Wauters</author>
+        <author>Filip De Turck</author>
+        <author>Bart Dhoedt</author>
+        <author>Piet Demeester</author>
+        <title>Towards Transparent Personal Content Storage in Multi-service Access Networks.</title>
+        <pages>479-492</pages>
+        <year>2007</year>
+        <crossref>conf/euc/2007</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/978-3-540-77092-3_42</ee>
+        <url>db/conf/euc/euc2007.html#VlaeminckWTDD07</url>
+    </inproceedings>
+    <inproceedings mdate="2011-12-28" key="conf/euc/ChuHC11">
+        <author>Slo-Li Chu</author>
+        <author>Chih-Chieh Hsiao</author>
+        <author>Chen-Yu Chen</author>
+        <title>A Dual-Mode Unified Shader with Frame-Based Dynamic Precision Adjustment for Mobile GPUs.</title>
+        <pages>158-165</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.5</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#ChuHC11</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-01" key="conf/euc/ChangJ05">
+        <author>Jyh-Huei Chang</author>
+        <author>Rong-Hong Jan</author>
+        <title>An Energy Aware, Cluster-Based Routing Algorithm for Wireless Sensor Networks.</title>
+        <pages>255-266</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596356_28</ee>
+        <url>db/conf/euc/euc2005.html#ChangJ05</url>
+    </inproceedings>
+    <inproceedings mdate="2011-08-04" key="conf/euc/ChenWL04">
+        <author>Weisong Chen</author>
+        <author>Cho-Li Wang</author>
+        <author>Francis C. M. Lau</author>
+        <title>A Collaborative and Semantic Data Management Framework for Ubiquitous Computing Environment.</title>
+        <pages>962-971</pages>
+        <ee>http://dx.doi.org/10.1007/978-3-540-30121-9_92</ee>
+        <year>2004</year>
+        <crossref>conf/euc/2004</crossref>
+        <booktitle>EUC</booktitle>
+        <url>db/conf/euc/euc2004.html#ChenWL04</url>
+    </inproceedings>
+    <inproceedings mdate="2013-01-01" key="conf/euc/RezazadehSM11">
+        <author>Majid Rezazadeh</author>
+        <author>Farshad Safaei</author>
+        <author>Mohammad Hossein Moaiyeri</author>
+        <title>Comparative Performance Study of Multi-stage Interconnection Networks Using Carbon Nanotube Switches.</title>
+        <pages>326-331</pages>
+        <year>2011</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://doi.ieeecomputersociety.org/10.1109/EUC.2011.24</ee>
+        <crossref>conf/euc/2011</crossref>
+        <url>db/conf/euc/euc2011.html#RezazadehSM11</url>
+    </inproceedings>
+    <inproceedings mdate="2007-12-03" key="conf/euc/HaMNB07">
+        <author>JaeCheol Ha</author>
+        <author>Sang-Jae Moon</author>
+        <author>Juan Manuel Gonzlez Nieto</author>
+        <author>Colin Boyd</author>
+        <title>Low-Cost and Strong-Security RFID Authentication Protocol.</title>
+        <pages>795-807</pages>
+        <year>2007</year>
+        <crossref>conf/euc/2007w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/978-3-540-77090-9_72</ee>
+        <url>db/conf/euc/eucw2007.html#HaMNB07</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-02" key="conf/euc/CourbotGVS05">
+        <author>Alexandre Courbot</author>
+        <author>Gilles Grimaud</author>
+        <author>Jean-Jacques Vandewalle</author>
+        <author>David Simplot-Ryl</author>
+        <title>Application-Driven Customization of an Embedded Java Virtual Machine.</title>
+        <pages>81-90</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_9</ee>
+        <url>db/conf/euc/eucw2005.html#CourbotGVS05</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-02" key="conf/euc/SeoKR05">
+        <author>Sungbo Seo</author>
+        <author>Jaewoo Kang</author>
+        <author>Keun Ho Ryu</author>
+        <title>Multivariate Stream Data Reduction in Sensor Network Applications.</title>
+        <pages>198-207</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_21</ee>
+        <url>db/conf/euc/eucw2005.html#SeoKR05</url>
+    </inproceedings>
+    <inproceedings mdate="2011-08-04" key="conf/euc/JeongP04">
+        <author>Moon-Sang Jeong</author>
+        <author>Jong-Tae Park</author>
+        <title>Hierarchical Mobile Network Routing: Route Optimization and Micro-Mobility Support for NEMO.</title>
+        <pages>571-580</pages>
+        <ee>http://dx.doi.org/10.1007/978-3-540-30121-9_54</ee>
+        <year>2004</year>
+        <crossref>conf/euc/2004</crossref>
+        <booktitle>EUC</booktitle>
+        <url>db/conf/euc/euc2004.html#JeongP04</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-01" key="conf/euc/DurresiPDB05">
+        <author>Arjan Durresi</author>
+        <author>Vamsi Paruchuri</author>
+        <author>Mimoza Durresi</author>
+        <author>Leonard Barolli</author>
+        <title>A Hierarchical Anonymous Communication Protocol for Sensor Networks.</title>
+        <pages>1123-1132</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596356_111</ee>
+        <url>db/conf/euc/euc2005.html#DurresiPDB05</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-02" key="conf/euc/NaK05">
+        <author>Yun Ji Na</author>
+        <author>Il Seok Ko</author>
+        <title>A Digital Content Distribution Using a Group-key and Multi-layered Structure Based on Web.</title>
+        <pages>1265-1272</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_128</ee>
+        <url>db/conf/euc/eucw2005.html#NaK05</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/KwakRPKKSW06">
+        <author>Jin Kwak</author>
+        <author>Keunwoo Rhee</author>
+        <author>Namje Park</author>
+        <author>Howon Kim</author>
+        <author>Seungjoo Kim</author>
+        <author>Kouichi Sakurai</author>
+        <author>Dongho Won</author>
+        <title>An RFID System Based MCLT System with Improved Privacy.</title>
+        <pages>579-590</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11807964_59</ee>
+        <url>db/conf/euc/eucw2006.html#KwakRPKKSW06</url>
+    </inproceedings>
+    <inproceedings mdate="2011-06-04" key="conf/euc/ChenLSWX08">
+        <author>Wei Chen 0009</author>
+        <author>Hongyi Lu</author>
+        <author>Li Shen</author>
+        <author>Zhiying Wang</author>
+        <author>Nong Xiao</author>
+        <title>DBTIM: An Advanced Hardware Assisted Full Virtualization Architecture.</title>
+        <pages>399-404</pages>
+        <year>2008</year>
+        <booktitle>EUC (2)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.95</ee>
+        <crossref>conf/euc/2008-2</crossref>
+        <url>db/conf/euc/euc2008-2.html#ChenLSWX08</url>
+    </inproceedings>
+    <inproceedings mdate="2011-05-27" key="conf/euc/WuH10">
+        <author>Weigang Wu</author>
+        <author>Yifei Huang</author>
+        <title>Hierarchical Cooperative Data Caching for Wireless Mesh Networks.</title>
+        <pages>289-296</pages>
+        <year>2010</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2010.48</ee>
+        <crossref>conf/euc/2010</crossref>
+        <url>db/conf/euc/euc2010.html#WuH10</url>
+    </inproceedings>
+    <inproceedings mdate="2008-01-28" key="conf/euc/JinLCLLZ05">
+        <author>Jin Wang</author>
+        <author>Shu Lei</author>
+        <author>Jinsung Cho</author>
+        <author>Young-Koo Lee</author>
+        <author>Sungyoung Lee</author>
+        <author>Yonil Zhung</author>
+        <title>A Load-Balancing and Energy-Aware Clustering Algorithm in Wireless Ad-Hoc Networks.</title>
+        <pages>1108-1117</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_113</ee>
+        <url>db/conf/euc/eucw2005.html#JinLCLLZ05</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/LeeSPK08">
+        <author>Gyeongtaek Lee</author>
+        <author>Jonghun Shin</author>
+        <author>Daewon Park</author>
+        <author>Hyukchul Kwon</author>
+        <title>Discovery Architecture for the Tracing of Products in the EPCglobal Network.</title>
+        <pages>553-558</pages>
+        <year>2008</year>
+        <booktitle>EUC (2)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.69</ee>
+        <crossref>conf/euc/2008-2</crossref>
+        <url>db/conf/euc/euc2008-2.html#LeeSPK08</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/HeZSF06">
+        <author>Xianhui He</author>
+        <author>Yongxin Zhu</author>
+        <author>Zhenxin Sun</author>
+        <author>Yuzhuo Fu</author>
+        <title>UML Based Evaluation of Reconfigurable Shape Adaptive DCT for Embedded Stream Processing.</title>
+        <pages>898-907</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11807964_90</ee>
+        <url>db/conf/euc/eucw2006.html#HeZSF06</url>
+    </inproceedings>
+    <inproceedings mdate="2007-12-03" key="conf/euc/ChoiL07">
+        <author>Jihoon Choi</author>
+        <author>Wonjun Lee</author>
+        <title>Comparative Evaluation of Probabilistic and Deterministic Tag Anti-collision Protocols for RFID Networks.</title>
+        <pages>538-549</pages>
+        <year>2007</year>
+        <crossref>conf/euc/2007w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/978-3-540-77090-9_50</ee>
+        <url>db/conf/euc/eucw2007.html#ChoiL07</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/CanwenMYZ08">
+        <author>Xiao Canwen</author>
+        <author>Zhang Minxuan</author>
+        <author>Dou Yong</author>
+        <author>Zhao Zhitong</author>
+        <title>Dimensional Bubble Flow Control and Fully Adaptive Routing in the 2-D Mesh Network on Chip.</title>
+        <pages>353-358</pages>
+        <year>2008</year>
+        <booktitle>EUC (1)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.49</ee>
+        <crossref>conf/euc/2008-1</crossref>
+        <url>db/conf/euc/euc2008-1.html#CanwenMYZ08</url>
+    </inproceedings>
+    <inproceedings mdate="2011-05-27" key="conf/euc/AliSO10">
+        <author>Syed Taha Ali</author>
+        <author>Vijay Sivaraman</author>
+        <author>Diethelm Ostry</author>
+        <title>Secret Key Generation Rate vs. Reconciliation Cost Using Wireless Channel Characteristics in Body Area Networks.</title>
+        <pages>644-650</pages>
+        <year>2010</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2010.103</ee>
+        <crossref>conf/euc/2010</crossref>
+        <url>db/conf/euc/euc2010.html#AliSO10</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/ZhouG08">
+        <author>Yu Zhou</author>
+        <author>Hui Guo</author>
+        <title>Application Specific Low Power ALU Design.</title>
+        <pages>214-220</pages>
+        <year>2008</year>
+        <booktitle>EUC (1)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.81</ee>
+        <crossref>conf/euc/2008-1</crossref>
+        <url>db/conf/euc/euc2008-1.html#ZhouG08</url>
+    </inproceedings>
+    <inproceedings mdate="2014-11-26" key="conf/euc/LemarchandMB14">
+        <author>Laurent Lemarchand</author>
+        <author>Isaac Armah Mensah</author>
+        <author>Jean-Philippe Babau</author>
+        <title>Dynamic Server Configuration for Multiple Streaming in a Home Network.</title>
+        <pages>39-45</pages>
+        <year>2014</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2014.15</ee>
+        <crossref>conf/euc/2014</crossref>
+        <url>db/conf/euc/euc2014.html#LemarchandMB14</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-01" key="conf/euc/SeoJLW05">
+        <author>Gang-Hoon Seo</author>
+        <author>Won-Yong Jung</author>
+        <author>Seongsoo Lee</author>
+        <author>Jae-Kyung Wee</author>
+        <title>Pipelined Bidirectional Bus Architecture for Embedded Multimedia SoCs.</title>
+        <pages>350-359</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596356_37</ee>
+        <url>db/conf/euc/euc2005.html#SeoJLW05</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/HuLZW06">
+        <author>Jun Hu</author>
+        <author>Xuandong Li</author>
+        <author>Guoliang Zheng</author>
+        <author>Chenghua Wang</author>
+        <title>Modelling and Analysis of Power Consumption for Component-Based Embedded Software.</title>
+        <pages>795-804</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11807964_80</ee>
+        <url>db/conf/euc/eucw2006.html#HuLZW06</url>
+    </inproceedings>
+    <inproceedings mdate="2011-05-27" key="conf/euc/BaNGN10">
+        <author>Mandicou Ba</author>
+        <author>Ibrahima Niang</author>
+        <author>Bamba Gueye</author>
+        <author>Thomas Nol</author>
+        <title>A Deterministic Key Management Scheme for Securing Cluster-Based Sensors Networks.</title>
+        <pages>422-427</pages>
+        <year>2010</year>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2010.70</ee>
+        <crossref>conf/euc/2010</crossref>
+        <url>db/conf/euc/euc2010.html#BaNGN10</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-01" key="conf/euc/PortolanL05">
+        <author>Michele Portolan</author>
+        <author>Rgis Leveugle</author>
+        <title>Towards a Secure and Reliable System.</title>
+        <pages>1085-1098</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596356_108</ee>
+        <url>db/conf/euc/euc2005.html#PortolanL05</url>
+    </inproceedings>
+    <inproceedings mdate="2007-11-27" key="conf/euc/ChuT07">
+        <author>Weikuo Chu</author>
+        <author>Yu-Chee Tseng</author>
+        <title>A Shortest Time First Scheduling Mechanism for Reducing the Total Power Consumptions of an IEEE 802.11 Multiple Rate Ad Hoc Network.</title>
+        <pages>25-32</pages>
+        <year>2007</year>
+        <crossref>conf/euc/2007</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/978-3-540-77092-3_3</ee>
+        <url>db/conf/euc/euc2007.html#ChuT07</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/ZhangGP08">
+        <author>Yuanyuan Zhang</author>
+        <author>Dawu Gu</author>
+        <author>Bart Preneel</author>
+        <title>Reliable Key Establishment Scheme Exploiting Unidirectional Links in Wireless Sensor Networks.</title>
+        <pages>272-279</pages>
+        <year>2008</year>
+        <booktitle>EUC (1)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.10</ee>
+        <crossref>conf/euc/2008-1</crossref>
+        <url>db/conf/euc/euc2008-1.html#ZhangGP08</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/BalakrishnanND08">
+        <author>Dineshbalu Balakrishnan</author>
+        <author>Amiya Nayak</author>
+        <author>Pulak Dhar</author>
+        <title>CSON-D: An Ambient Network Aware Context Dissemination Scheme towards Ubiquitous Networking.</title>
+        <pages>543-548</pages>
+        <year>2008</year>
+        <booktitle>EUC (2)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.145</ee>
+        <crossref>conf/euc/2008-2</crossref>
+        <url>db/conf/euc/euc2008-2.html#BalakrishnanND08</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/FanX08">
+        <author>Xiang Fan</author>
+        <author>Yang Xiang</author>
+        <title>Defending against the Propagation of Active Worms.</title>
+        <pages>350-355</pages>
+        <year>2008</year>
+        <booktitle>EUC (2)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.75</ee>
+        <crossref>conf/euc/2008-2</crossref>
+        <url>db/conf/euc/euc2008-2.html#FanX08</url>
+    </inproceedings>
+    <inproceedings mdate="2005-12-02" key="conf/euc/SongLK05">
+        <author>Young-Mi Song</author>
+        <author>Sung-Hee Lee</author>
+        <author>Young-Bae Ko</author>
+        <title>FERMA: An Efficient Geocasting Protocol for Wireless Sensor Networks with Multiple Target Regions.</title>
+        <pages>1138-1147</pages>
+        <year>2005</year>
+        <crossref>conf/euc/2005w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/11596042_116</ee>
+        <url>db/conf/euc/eucw2005.html#SongLK05</url>
+    </inproceedings>
+    <inproceedings mdate="2011-08-04" key="conf/euc/LiWZWY04a">
+        <author>Min Li</author>
+        <author>Xiaobo Wu</author>
+        <author>Menglian Zhao</author>
+        <author>Hui Wang</author>
+        <author>Xiaolang Yan</author>
+        <title>Heterogeneous Grid Computing for Energy Constrained Mobile Device.</title>
+        <pages>356-365</pages>
+        <ee>http://dx.doi.org/10.1007/978-3-540-30121-9_34</ee>
+        <year>2004</year>
+        <crossref>conf/euc/2004</crossref>
+        <booktitle>EUC</booktitle>
+        <url>db/conf/euc/euc2004.html#LiWZWY04a</url>
+    </inproceedings>
+    <inproceedings mdate="2006-10-31" key="conf/euc/HanJ06">
+        <author>Youn-Hee Han</author>
+        <author>Dongwon Jeong</author>
+        <title>A Comprehensive Study on Handover Performance of Hierarchical Mobile IPv6.</title>
+        <pages>1108-1118</pages>
+        <year>2006</year>
+        <crossref>conf/euc/2006</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/11802167_111</ee>
+        <url>db/conf/euc/euc2006.html#HanJ06</url>
+    </inproceedings>
+    <inproceedings mdate="2007-11-27" key="conf/euc/HuW07">
+        <author>Dexter H. Hu</author>
+        <author>Cho-Li Wang</author>
+        <title>GPS-Based Location Extraction and Presence Management for Mobile Instant Messenger.</title>
+        <pages>309-320</pages>
+        <year>2007</year>
+        <crossref>conf/euc/2007</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/978-3-540-77092-3_27</ee>
+        <url>db/conf/euc/euc2007.html#HuW07</url>
+    </inproceedings>
+    <inproceedings mdate="2009-10-15" key="conf/euc/ZengTTI08">
+        <author>Gang Zeng</author>
+        <author>Hiroyuki Tomiyama</author>
+        <author>Hiroaki Takada</author>
+        <author>Tohru Ishihara</author>
+        <title>A Generalized Framework for System-Wide Energy Savings in Hard Real-Time Embedded Systems.</title>
+        <pages>206-213</pages>
+        <year>2008</year>
+        <booktitle>EUC (1)</booktitle>
+        <ee>http://dx.doi.org/10.1109/EUC.2008.101</ee>
+        <crossref>conf/euc/2008-1</crossref>
+        <url>db/conf/euc/euc2008-1.html#ZengTTI08</url>
+    </inproceedings>
+    <inproceedings mdate="2007-12-03" key="conf/euc/YangCY07">
+        <author>Chun-Chuan Yang</author>
+        <author>Jeng-Yueng Chen</author>
+        <author>Li-Sheng Yu</author>
+        <title>A Multicast Extension for Enhanced Mobile IP by Home Agent Handover.</title>
+        <pages>297-308</pages>
+        <year>2007</year>
+        <crossref>conf/euc/2007w</crossref>
+        <booktitle>EUC Workshops</booktitle>
+        <ee>http://dx.doi.org/10.1007/978-3-540-77090-9_27</ee>
+        <url>db/conf/euc/eucw2007.html#YangCY07</url>
+    </inproceedings>
+    <inproceedings mdate="2007-11-27" key="conf/euc/HuangWH07">
+        <author>Shih-Hsu Huang</author>
+        <author>Chu-Liao Wang</author>
+        <author>Man-Lin Huang</author>
+        <title>A Floorplan-Based Power Network Analysis Methodology for System-on-Chip Designs.</title>
+        <pages>507-516</pages>
+        <year>2007</year>
+        <crossref>conf/euc/2007</crossref>
+        <booktitle>EUC</booktitle>
+        <ee>http://dx.doi.org/10.1007/978-3-540-77092-3_44</ee>
+        <url>db/conf/euc/euc2007.html#HuangWH07</url>
+    </inproceedings>
 </dblp>
