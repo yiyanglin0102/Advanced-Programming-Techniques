@@ -7,23 +7,15 @@ public class Main {
 
   public static void main(String[] args) throws Exception {
     // buildPhDThesisTable(args[0]);
-    // Used to create operating system processes.
-    //  ProcessBuilder pb = new ProcessBuilder();
-    //  // Get the file
-    //  pb.command(new File(".").getCanonicalPath() + "/" + args[0]);
-    //  Process process = pb.start();
-    //  String result = read(process);
-    //  System.out.print(result);
-
     buildPhDThesisTable("sample.xml");
-    // buildWWWTable("/Users/yiyanglin/Desktop/CS622/HW5/Code/dblp.xml");
+    // buildWWWTable("/Users/yiyanglin/Desktop/CS622/HW5/Code/sample.xml");
     // readFile("/Users/yiyanglin/Desktop/CS622/HW5/Code/dblp.xml");
   }
 
   public static void readFile(String file) throws IOException {
     FileInputStream inputStream = null;
     Scanner sc = null;
-    
+
     try {
       inputStream =
         new FileInputStream("/Users/yiyanglin/Desktop/CS622/HW5/Code/dblp.xml");
@@ -44,9 +36,6 @@ public class Main {
         sc.close();
       }
     }
-
-
-
   }
 
   public static void buildDatabase(String file)
@@ -85,20 +74,24 @@ public class Main {
       DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
       Document doc = dBuilder.parse(inputFile);
       doc.getDocumentElement().normalize();
+      NodeList nodeList = doc.getElementsByTagName("www");
       System.out.println(
-        "Root element :" + doc.getDocumentElement().getNodeName()
+        "Root element :" + doc.getDocumentElement().getAttribute("mdate")
       );
+      for(int x=0,size= nodeList.getLength(); x<size; x++) {
+        System.out.println(nodeList.item(x).getAttributes().getNamedItem("mdate").getNodeValue());
+    }
 
       //////////////
-      NodeList nList = doc.getElementsByTagName("article");
-      System.out.println("here1 :" + nList.item(0).getNodeName());
+      // NodeList nList = doc.getElementsByTagName("article");
+      // System.out.println("here1 :" + nList.item(0).getNodeName());
       // Node nNode = nList.item(0);
       // Element eElement = (Element) nNode;
       // System.out.println("here2 :" + ((Element) nNode).getElementsByTagName("author").item(0).getTextContent());
-
+      // System.out.println();
       //////////////
-      // for (int temp = 0; temp < nList.getLength(); temp++) {
-      // Node nNode = nList.item(temp);
+      // for (int i = 0; i < nList.getLength(); i++) {
+      // Node nNode = nList.item(i);
       // System.out.println("\nCurrent Element :" + nNode.getNodeName());
 
       // if (nNode.getNodeType() == Node.ELEMENT_NODE) {
@@ -137,9 +130,9 @@ public class Main {
         "Root element :" + doc.getDocumentElement().getNodeName()
       );
       NodeList nList = doc.getElementsByTagName("phdthesis");
-
-      for (int temp = 0; temp < nList.getLength(); temp++) {
-        Node nNode = nList.item(temp);
+      
+      for (int i = 0; i < nList.getLength(); i++) {
+        Node nNode = nList.item(i);
         System.out.println("\nCurrent Element :" + nNode.getNodeName());
 
         if (nNode.getNodeType() == Node.ELEMENT_NODE) {
@@ -149,6 +142,8 @@ public class Main {
             "author : " +
             eElement.getElementsByTagName("author").item(0).getTextContent()
           );
+          System.out.println(nNode.getAttributes().getNamedItem("mdate").getNodeValue());
+
           System.out.println(
             "title : " +
             eElement.getElementsByTagName("title").item(0).getTextContent()
