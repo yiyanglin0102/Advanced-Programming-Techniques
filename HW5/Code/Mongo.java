@@ -43,7 +43,7 @@ public class Mongo {
 
         Document obj = new Document(
           "key",
-          nNode.getAttributes().getNamedItem("mdate").getNodeValue()
+          nNode.getAttributes().getNamedItem("key").getNodeValue()
         )
           .append(
             "mdate",
