@@ -65,24 +65,6 @@ public class Mysql {
             "\");";
 
           stmt.executeUpdate(sql3);
-          // String sql3 =
-          //   "insert into PHDTHESIS values(\"persons/Ley93\",\"2005-10-06\",\"Michael Ley\",\"DBLP.uni-trier.de: Computer Science Bibliography\");";
-          // System.out.println(
-          //   "author : " +
-          //   eElement.getElementsByTagName("author").item(0).getTextContent()
-          // );
-          // System.out.println(
-          //   "title : " +
-          //   eElement.getElementsByTagName("title").item(0).getTextContent()
-          // );
-          // System.out.println(
-          //   "year : " +
-          //   eElement.getElementsByTagName("year").item(0).getTextContent()
-          // );
-          // System.out.println(
-          //   "school : " +
-          //   eElement.getElementsByTagName("school").item(0).getTextContent()
-          // );
         }
       }
 
@@ -107,6 +89,7 @@ public class Mysql {
       File inputFile = new File(
         "/Users/yiyanglin/Desktop/CS622/HW5/Code/sample.xml"
       );
+
       DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
       DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
       Document doc = dBuilder.parse(inputFile);
@@ -142,24 +125,6 @@ public class Mysql {
             "\");";
 
           stmt.executeUpdate(sql3);
-          // String sql3 =
-          //   "insert into PHDTHESIS values(\"persons/Ley93\",\"2005-10-06\",\"Michael Ley\",\"DBLP.uni-trier.de: Computer Science Bibliography\");";
-          // System.out.println(
-          //   "author : " +
-          //   eElement.getElementsByTagName("author").item(0).getTextContent()
-          // );
-          // System.out.println(
-          //   "title : " +
-          //   eElement.getElementsByTagName("title").item(0).getTextContent()
-          // );
-          // System.out.println(
-          //   "year : " +
-          //   eElement.getElementsByTagName("year").item(0).getTextContent()
-          // );
-          // System.out.println(
-          //   "school : " +
-          //   eElement.getElementsByTagName("school").item(0).getTextContent()
-          // );
         }
       }
 
@@ -219,24 +184,6 @@ public class Mysql {
             "\");";
 
           stmt.executeUpdate(sql3);
-          // String sql3 =
-          //   "insert into PHDTHESIS values(\"persons/Ley93\",\"2005-10-06\",\"Michael Ley\",\"DBLP.uni-trier.de: Computer Science Bibliography\");";
-          // System.out.println(
-          //   "author : " +
-          //   eElement.getElementsByTagName("author").item(0).getTextContent()
-          // );
-          // System.out.println(
-          //   "title : " +
-          //   eElement.getElementsByTagName("title").item(0).getTextContent()
-          // );
-          // System.out.println(
-          //   "year : " +
-          //   eElement.getElementsByTagName("year").item(0).getTextContent()
-          // );
-          // System.out.println(
-          //   "school : " +
-          //   eElement.getElementsByTagName("school").item(0).getTextContent()
-          // );
         }
       }
 
