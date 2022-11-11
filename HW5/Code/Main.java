@@ -38,35 +38,6 @@ public class Main {
     }
   }
 
-  public static void buildDatabase(String file)
-    throws IOException, ParserConfigurationException {
-    DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-    DocumentBuilder builder = factory.newDocumentBuilder();
-
-    StringBuilder xmlStringBuilder = new StringBuilder();
-
-    xmlStringBuilder.append("<?xml version=\"1.0\"?> <class> </class>");
-    ByteArrayInputStream input = new ByteArrayInputStream(
-      xmlStringBuilder.toString().getBytes("UTF-8")
-    );
-    // Document doc = builder.parse(input);
-    // Element root = doc.getDocumentElement();
-    // FileReader inputFile = new FileReader(file);
-    // BufferedReader br = new BufferedReader(inputFile);
-    // String line = br.readLine();
-
-    // while (line != null) {
-    //   line = line.replaceAll("\\<.*?\\>", "");
-    //   if (line.isEmpty())
-    //   {
-    //     line = br.readLine();
-    //   }
-    //   System.out.println(line);
-    //     line = br.readLine();
-    // }
-    // br.close();
-  }
-
   public static void buildWWWTable(String file) {
     try {
       File inputFile = new File(file);
