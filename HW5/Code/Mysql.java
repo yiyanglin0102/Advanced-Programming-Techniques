@@ -6,10 +6,43 @@ import org.w3c.dom.*;
 public class Mysql {
 
   public static void main(String[] args) throws Exception {
-    // createPHDTHESIS();
-    // createWWW();
-    // createInproceedings();
+    createPHDTHESIS();
+    createWWW();
+    createInproceedings();
+
+    // query1("SELECT * FROM inproceedings WHERE title LIKE '%{$computer}%'");
+    query1("SELECT * FROM inproceedings");
+    query2();
   }
+
+  public static void query1(String query) throws Exception {
+    try (
+      Connection conn = DriverManager.getConnection(
+        "jdbc:mysql://localhost:3306/cs622",
+        "root",
+        ""
+      );
+      Statement stmt = conn.createStatement();
+    ) {
+      ResultSet rs = stmt.executeQuery(query);
+
+      while (rs.next()) {
+        String key = rs.getString("tagKey");
+        String title = rs.getString("title");
+        String author = rs.getString("author");
+        String mdate = rs.getString("mdate");
+
+        // print the results
+        System.out.format("%s, %s, %s, %s\n", key, title, author, mdate);
+      }
+
+      conn.close();
+    } catch (SQLException e) {
+      e.printStackTrace();
+    }
+  }
+
+  public static void query2() throws Exception {}
 
   public static void createInproceedings() throws Exception {
     try (
