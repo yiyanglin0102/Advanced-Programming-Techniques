@@ -6,16 +6,24 @@ import org.w3c.dom.*;
 public class Mysql {
 
   public static void main(String[] args) throws Exception {
-    createPHDTHESIS();
-    createWWW();
-    createInproceedings();
+    // createPHDTHESIS();
+    // createWWW();
+    // createInproceedings();
 
-    // query1("SELECT * FROM inproceedings WHERE title LIKE '%{$computer}%'");
-    query1("SELECT * FROM inproceedings");
-    query2();
+    // query1_0(
+    //   "SELECT * FROM inproceedings WHERE title LIKE \'%design%\' AND year > 2000;"
+    // );
+
+    // query1_1(
+    //   "SELECT COUNT(*) as total FROM inproceedings WHERE title LIKE \'%design%\' AND year > 2000;"
+    // );
+
+    // query2(
+    //   "SELECT * FROM Inproceedings WHERE title LIKE \'%of%\' AND mdate between \'2008-01-01\' and \'2010-01-31\';"
+    // );
   }
 
-  public static void query1(String query) throws Exception {
+  public static void query1_0(String query) throws Exception {
     try (
       Connection conn = DriverManager.getConnection(
         "jdbc:mysql://localhost:3306/cs622",
@@ -29,11 +37,10 @@ public class Mysql {
       while (rs.next()) {
         String key = rs.getString("tagKey");
         String title = rs.getString("title");
+        String year = rs.getString("year");
         String author = rs.getString("author");
-        String mdate = rs.getString("mdate");
 
-        // print the results
-        System.out.format("%s, %s, %s, %s\n", key, title, author, mdate);
+        System.out.format("%s, %s, %s, %s\n", key, title, author, year);
       }
 
       conn.close();
@@ -42,7 +49,54 @@ public class Mysql {
     }
   }
 
-  public static void query2() throws Exception {}
+  public static void query1_1(String query) throws Exception {
+    try (
+      Connection conn = DriverManager.getConnection(
+        "jdbc:mysql://localhost:3306/cs622",
+        "root",
+        ""
+      );
+      Statement stmt = conn.createStatement();
+    ) {
+      ResultSet rs = stmt.executeQuery(query);
+
+      while (rs.next()) {
+        System.out.format("%d\n", rs.getInt("total"));
+      }
+
+      conn.close();
+    } catch (SQLException e) {
+      e.printStackTrace();
+    }
+  }
+
+  public static void query2(String query) throws Exception {
+    try (
+      Connection conn = DriverManager.getConnection(
+        "jdbc:mysql://localhost:3306/cs622",
+        "root",
+        ""
+      );
+      Statement stmt = conn.createStatement();
+    ) {
+      ResultSet rs = stmt.executeQuery(query);
+
+      while (rs.next()) {
+        String key = rs.getString("tagKey");
+        String title = rs.getString("title");
+        String year = rs.getString("year");
+        String author = rs.getString("author");
+        String mdate = rs.getString("mdate");
+
+        // print the results
+        System.out.format("%s, %s, %s, %s\n", key, title, author, year, mdate);
+      }
+
+      conn.close();
+    } catch (SQLException e) {
+      e.printStackTrace();
+    }
+  }
 
   public static void createInproceedings() throws Exception {
     try (
@@ -67,7 +121,7 @@ public class Mysql {
       String sql2 =
         "CREATE TABLE " +
         "INPROCEEDINGS" +
-        " (tagkey VARCHAR(100), mdate VARCHAR(50), author VARCHAR(50), title VARCHAR(200), pages VARCHAR(50), year YEAR(4), ee VARCHAR(300), url VARCHAR(300));";
+        " (tagkey VARCHAR(100), mdate DATE, author VARCHAR(50), title VARCHAR(200), pages VARCHAR(50), year YEAR(4), ee VARCHAR(300), url VARCHAR(300));";
       stmt.executeUpdate(sql2);
 
       NodeList nList = doc.getElementsByTagName("inproceedings");
@@ -131,7 +185,7 @@ public class Mysql {
       String sql2 =
         "CREATE TABLE " +
         "WWW" +
-        " (tagkey VARCHAR(20), mdate VARCHAR(50), author VARCHAR(50), title VARCHAR(300));";
+        " (tagkey VARCHAR(20), mdate DATE, author VARCHAR(50), title VARCHAR(300));";
       stmt.executeUpdate(sql2);
 
       NodeList nList = doc.getElementsByTagName("www");
@@ -190,7 +244,7 @@ public class Mysql {
       String sql2 =
         "CREATE TABLE " +
         "PHDTHESIS" +
-        " (tagkey VARCHAR(20), mdate VARCHAR(50), author VARCHAR(50), title VARCHAR(300), year YEAR(4), school VARCHAR(50));";
+        " (tagkey VARCHAR(20), mdate DATE, author VARCHAR(50), title VARCHAR(300), year YEAR(4), school VARCHAR(50));";
       stmt.executeUpdate(sql2);
 
       NodeList nList = doc.getElementsByTagName("phdthesis");

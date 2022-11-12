@@ -13,12 +13,38 @@ public class Mongo {
   public static void main(String[] args) throws Exception {
     MongoClient mongoClient = new MongoClient();
 
-    createWWW(mongoClient);
-    createPHDTHESIS(mongoClient);
-    createInproceedings(mongoClient);
+    // createWWW(mongoClient);
+    // createPHDTHESIS(mongoClient);
+    // createInproceedings(mongoClient);
+
+    query1("SELECT * FROM inproceedings WHERE title LIKE '%{$computer}%'");
+    query2("SELECT * FROM inproceedings");
 
     mongoClient.close();
   }
+
+  public static void query1(String string) {
+    // initialize the client object
+    MongoClient mongoClient = new MongoClient();
+    // get the 'test' dataset
+    MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
+
+    // list its collections
+
+    for (String name : dbObj.listCollectionNames()) {
+      System.out.println();
+      System.out.println();
+      System.out.println("Collections inside this db:" + name);
+
+      MongoCollection<Document> col = dbObj.getCollection(name);
+      Iterator it = col.find().iterator();
+      while (it.hasNext()) {
+        System.out.println(name + " docs inside the Collection ----> " + it.next());
+      }
+    }
+  }
+
+  public static void query2(String string) {}
 
   public static void createWWW(MongoClient mongoClient) throws Exception {
     File inputFile = new File("sample.xml");
@@ -29,7 +55,7 @@ public class Mongo {
 
     NodeList nList = doc.getElementsByTagName("www");
     MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
-    dbObj.drop();
+    // dbObj.drop();
     for (int i = 0; i < nList.getLength(); i++) {
       Node nNode = nList.item(i);
 
@@ -86,7 +112,7 @@ public class Mongo {
 
     NodeList nList = doc.getElementsByTagName("phdthesis");
     MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
-    dbObj.drop();
+    // dbObj.drop();
     for (int i = 0; i < nList.getLength(); i++) {
       Node nNode = nList.item(i);
 
@@ -147,7 +173,7 @@ public class Mongo {
     NodeList nList = doc.getElementsByTagName("inproceedings");
 
     MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
-    dbObj.drop();
+    // dbObj.drop();
     for (int i = 0; i < nList.getLength(); i++) {
       Node nNode = nList.item(i);
 

@@ -506,11 +506,7 @@
         <author>Kyong Hoon Kim</author>
         <author>Jong Kim</author>
         <author>Sung Je Hong</author>
-        <title>
-            Dual-Mode
-            <i>r</i>
-            -Reliable Task Model for Flexible Scheduling in Reliable Real-Time Systems.
-        </title>
+        <title>Dual-Mode-Reliable Task Model for Flexible Scheduling in Reliable Real-Time Systems.</title>
         <pages>308-317</pages>
         <year>2006</year>
         <crossref>conf/euc/2006</crossref>
