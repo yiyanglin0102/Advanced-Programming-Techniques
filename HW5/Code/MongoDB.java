@@ -1,50 +1,75 @@
+import static com.mongodb.client.model.Filters.*;
 import com.mongodb.*;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.model.Filters;
 import java.io.*;
 import java.util.*;
 import javax.xml.parsers.*;
-import org.bson.*;
 import org.bson.Document;
+import org.bson.conversions.Bson;
 import org.w3c.dom.*;
 
-public class Mongo {
+public class MongoDB {
 
   public static void main(String[] args) throws Exception {
-    MongoClient mongoClient = new MongoClient();
+    // MongoClient mongoClient = new MongoClient();
+    // MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
 
     // createWWW(mongoClient);
     // createPHDTHESIS(mongoClient);
     // createInproceedings(mongoClient);
 
-    query1("SELECT * FROM inproceedings WHERE title LIKE '%{$computer}%'");
-    query2("SELECT * FROM inproceedings");
+    // query1(dbObj);
+    // query2(dbObj);
 
-    mongoClient.close();
+    // mongoClient.close();
   }
 
-  public static void query1(String string) {
-    // initialize the client object
-    MongoClient mongoClient = new MongoClient();
-    // get the 'test' dataset
-    MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
-
-    // list its collections
-
+  public static void query1(MongoDatabase dbObj) {
+    
+    int count = 0;
     for (String name : dbObj.listCollectionNames()) {
-      System.out.println();
-      System.out.println();
-      System.out.println("Collections inside this db:" + name);
+      if (name.equals("inproceedings")) {
+        MongoCollection<Document> collection = dbObj.getCollection(name);
+        Bson filter = Filters.regex("title", "of");
+        Bson equalComparison = gt("year", "2012");
 
-      MongoCollection<Document> col = dbObj.getCollection(name);
-      Iterator it = col.find().iterator();
-      while (it.hasNext()) {
-        System.out.println(name + " docs inside the Collection ----> " + it.next());
+        Iterator<Document> it = collection
+          .find()
+          .filter(filter)
+          .filter(equalComparison)
+          .iterator();
+        while (it.hasNext()) {
+          System.out.println("QUERY 1 search for MACHINE ---> " + it.next());
+          count += 1;
+        }
+        break;
+      }
+    }
+    System.out.println(count);
+  }
+
+  public static void query2(MongoDatabase dbObj) {
+for (String name : dbObj.listCollectionNames()) {
+      if (name.equals("inproceedings")) {
+        MongoCollection<Document> collection = dbObj.getCollection(name);
+
+        Bson comparison1 = gt("year", "2004");
+        Bson comparison2 = lt("year", "2008");
+
+        Iterator<Document> it = collection
+          .find()
+          .filter(comparison1)
+          .filter(comparison2)
+          .iterator();
+        while (it.hasNext()) {
+          System.out.println("docs inside the col:" + it.next());
+        }
+        break;
       }
     }
   }
-
-  public static void query2(String string) {}
 
   public static void createWWW(MongoClient mongoClient) throws Exception {
     File inputFile = new File("sample.xml");
@@ -55,7 +80,7 @@ public class Mongo {
 
     NodeList nList = doc.getElementsByTagName("www");
     MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
-    // dbObj.drop();
+    dbObj.drop();
     for (int i = 0; i < nList.getLength(); i++) {
       Node nNode = nList.item(i);
 
@@ -112,7 +137,7 @@ public class Mongo {
 
     NodeList nList = doc.getElementsByTagName("phdthesis");
     MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
-    // dbObj.drop();
+    dbObj.drop();
     for (int i = 0; i < nList.getLength(); i++) {
       Node nNode = nList.item(i);
 
@@ -173,7 +198,7 @@ public class Mongo {
     NodeList nList = doc.getElementsByTagName("inproceedings");
 
     MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
-    // dbObj.drop();
+    dbObj.drop();
     for (int i = 0; i < nList.getLength(); i++) {
       Node nNode = nList.item(i);
 

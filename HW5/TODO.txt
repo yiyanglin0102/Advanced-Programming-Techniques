@@ -20,17 +20,34 @@ SELECT * FROM inproceedings WHERE title LIKE '%{$computer}%'
 SELECT *
 FROM inproceedings
 WHERE INSTR(title, '{$love}') > 0;
-
-
-TODOs
-_____
+____ ____ __________________________________________________________________________________
+|       |
+| TODOs |
+|___ ___|
 
 Add tables from XML
 Query from MongoDB
+EXAMPLES
+_____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____
 
+Bson equalComparison = eq("year", "2004");
+Iterator<Document> it = collection.find().filter(equalComparison).iterator();
+ while (it.hasNext()) {
+          System.out.println("docs inside the col:" + it.next());
+        }
+_____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____
 
+collection.find().sort(descending("year"));
+_____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____
+MongoCollection<Document> collection = dbObj.getCollection(name);
+// TextSearchOptions options = new TextSearchOptions().caseSensitive(false);
+Bson filter = Filters.regex("title", "Machine");
 
-
+Iterator<Document> it = collection.find().filter(filter).iterator();
+while (it.hasNext()) {
+          System.out.println("QUERY 1 search for MACHINE ---> " + it.next());
+        }
+_____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____ _____
 
 
 
