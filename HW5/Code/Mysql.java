@@ -3,7 +3,7 @@ import java.sql.*;
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
 
-public class Mysql {
+public class MySQL {
 
   public static void main(String[] args) throws Exception {
     // createPHDTHESIS();
