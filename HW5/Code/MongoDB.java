@@ -13,17 +13,17 @@ import org.w3c.dom.*;
 public class MongoDB {
 
   public static void main(String[] args) throws Exception {
-    // MongoClient mongoClient = new MongoClient();
-    // MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
+    MongoClient mongoClient = new MongoClient();
+    MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
 
-    // createWWW(mongoClient);
-    // createPHDTHESIS(mongoClient);
-    // createInproceedings(mongoClient);
+    createWWW(mongoClient);
+    createPHDTHESIS(mongoClient);
+    createInproceedings(mongoClient);
+    // dbObj.drop();
+    query1(dbObj);
+    query2(dbObj);
 
-    // query1(dbObj);
-    // query2(dbObj);
-
-    // mongoClient.close();
+    mongoClient.close();
   }
 
   public static void query1(MongoDatabase dbObj) {
@@ -72,7 +72,7 @@ for (String name : dbObj.listCollectionNames()) {
   }
 
   public static void createWWW(MongoClient mongoClient) throws Exception {
-    File inputFile = new File("sample.xml");
+    File inputFile = new File("/Users/yiyanglin/Desktop/CS622/HW5/Code/sample.xml");
     DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
     DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
     org.w3c.dom.Document doc = dBuilder.parse(inputFile);
@@ -80,7 +80,7 @@ for (String name : dbObj.listCollectionNames()) {
 
     NodeList nList = doc.getElementsByTagName("www");
     MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
-    dbObj.drop();
+    // dbObj.drop();
     for (int i = 0; i < nList.getLength(); i++) {
       Node nNode = nList.item(i);
 
@@ -129,7 +129,7 @@ for (String name : dbObj.listCollectionNames()) {
   }
 
   public static void createPHDTHESIS(MongoClient mongoClient) throws Exception {
-    File inputFile = new File("sample.xml");
+    File inputFile = new File("/Users/yiyanglin/Desktop/CS622/HW5/Code/sample.xml");
     DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
     DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
     org.w3c.dom.Document doc = dBuilder.parse(inputFile);
@@ -189,7 +189,7 @@ for (String name : dbObj.listCollectionNames()) {
 
   public static void createInproceedings(MongoClient mongoClient)
     throws Exception {
-    File inputFile = new File("sample.xml");
+    File inputFile = new File("/Users/yiyanglin/Desktop/CS622/HW5/Code/sample.xml");
     DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
     DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
     org.w3c.dom.Document doc = dBuilder.parse(inputFile);
