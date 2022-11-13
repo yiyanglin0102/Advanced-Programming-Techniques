@@ -13,17 +13,17 @@ import org.w3c.dom.*;
 public class MongoDB {
 
   public static void main(String[] args) throws Exception {
-    MongoClient mongoClient = new MongoClient();
-    MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
+    // MongoClient mongoClient = new MongoClient();
+    // MongoDatabase dbObj = mongoClient.getDatabase("DBLP");
 
-    createWWW(mongoClient);
-    createPHDTHESIS(mongoClient);
-    createInproceedings(mongoClient);
-    // dbObj.drop();
-    query1(dbObj);
-    query2(dbObj);
+    // createWWW(mongoClient);
+    // createPHDTHESIS(mongoClient);
+    // createInproceedings(mongoClient);
+    // // dbObj.drop();
+    // query1(dbObj);
+    // query2(dbObj);
 
-    mongoClient.close();
+    // mongoClient.close();
   }
 
   public static void query1(MongoDatabase dbObj) {

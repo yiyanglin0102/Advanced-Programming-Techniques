@@ -29,34 +29,12 @@ The workspace is structured in follwing:
         - `mongo-java-driver-3.12.11.jar` : The official MongoDB Java Drivers providing both synchronous and asynchronous interaction with MongoDB.
         - `mysql-connector-j-8.0.31.jar` : This provides standards-based drivers for JDBC enabling developers to build database applications in their language of choice, allowing developers to embed MySQL directly into their applications.
 
-
-## MySQL Used Commands
+## MongoDB Used Commands
 
 ```
 brew services restart mongodb-community
 brew services start mongodb-community
 brew services stop mongodb-community
-mysql
------------------------------
-show databases;
-SHOW TABLES;
-Describe INPROCEEDINGS;
-Describe PHDTHESIS;
-Describe WWW;
-select * from INPROCEEDINGS;
-select * from PHDTHESIS;
-select * from WWW;
-SELECT * FROM inproceedings WHERE title LIKE '%design%' AND year > 2000;
-SELECT COUNT(*) as total FROM inproceedings WHERE title LIKE '%design%' AND year > 2000;
-SELECT * FROM Inproceedings WHERE title LIKE '%of%' AND mdate between '2008-01-01' and '2010-01-31';
-```
-
-## MongoDB Used Commands
-
-```
-brew services restart mysql
-brew services start mysql
-brew services stop mysql
 mongosh
 -----------------------------
 show databases
@@ -72,4 +50,25 @@ db.getCollectionNames().forEach((c) => { db[c].find().forEach((d) => { print(c);
 db.phdthesis.drop()
 db.www.drop()
 db.inproceedings.drop()
+```
+
+## MySQL Used Commands
+
+```
+brew services restart mysql
+brew services start mysql 
+brew services stop mysql 
+mysql
+-----------------------------
+show databases;
+SHOW TABLES;
+Describe INPROCEEDINGS;
+Describe PHDTHESIS;
+Describe WWW;
+select * from INPROCEEDINGS;
+select * from PHDTHESIS;
+select * from WWW;
+SELECT * FROM inproceedings WHERE title LIKE '%design%' AND year > 2000;
+SELECT COUNT(*) as total FROM inproceedings WHERE title LIKE '%design%' AND year > 2000;
+SELECT * FROM Inproceedings WHERE title LIKE '%of%' AND mdate between '2008-01-01' and '2010-01-31';
 ```

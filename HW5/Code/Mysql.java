@@ -6,21 +6,21 @@ import org.w3c.dom.*;
 public class MySQL {
 
   public static void main(String[] args) throws Exception {
-    createPHDTHESIS();
-    createWWW();
-    createInproceedings();
+    // createPHDTHESIS();
+    // createWWW();
+    // createInproceedings();
 
-    query1_0(
-      "SELECT * FROM inproceedings WHERE title LIKE \'%design%\' AND year > 2000;"
-    );
+    // query1_0(
+    //   "SELECT * FROM inproceedings WHERE title LIKE \'%design%\' AND year > 2000;"
+    // );
     
-    query1_1(
-      "SELECT COUNT(*) as total FROM inproceedings WHERE title LIKE \'%design%\' AND year > 2000;"
-    );
+    // query1_1(
+    //   "SELECT COUNT(*) as total FROM inproceedings WHERE title LIKE \'%design%\' AND year > 2000;"
+    // );
 
-    query2(
-      "SELECT * FROM Inproceedings WHERE title LIKE \'%of%\' AND mdate between \'2008-01-01\' and \'2010-01-31\';"
-    );
+    // query2(
+    //   "SELECT * FROM Inproceedings WHERE title LIKE \'%of%\' AND mdate between \'2008-01-01\' and \'2010-01-31\';"
+    // );
   }
 
   public static void query1_0(String query) throws Exception {
