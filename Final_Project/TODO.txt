@@ -1,2 +1,7 @@
 Instagram - scrap to download
+
+	- python3 -m pip install -U instaloader
+	- https://instaloader.github.io/codesnippets.html?highlight=python
+
+
 Tiktok - scrap to download
