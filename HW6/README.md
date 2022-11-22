@@ -31,4 +31,4 @@ The workspace is structured in following:
     - `Previous_HW` : 
         - `LuceneMain.java` : In this file, it will create index cache mapping to each line of strings. At the next time, when a token is searched, it will be significantly save time because of tracing the string index from space.
         - `BFMain.java` : It searches token each line by line and makes a linear search.
-
+        - `JAR Files` : `mongo-java-driver-3.12.11.jar` and `mysql-connector-j-8.0.31.jar`
