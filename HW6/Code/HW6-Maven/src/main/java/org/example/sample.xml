@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE dblp SYSTEM "dblp.dtd">
+<dblp>
+
+<inproceedings mdate="2011-06-21" key="conf/safecomp/EvansM00">
+<author>Richard Evans</author>
+<author>Jonathan D. Moffett</author>
+<title>Derivation of Safety Targets for the Random Failure of Programmable Vehicle Based Systems.</title>
+<pages>240-249</pages>
+<ee>http://dx.doi.org/10.1007/3-540-40891-6_21</ee>
+<year>2000</year>
+<crossref>conf/safecomp/2000</crossref>
+<booktitle>SAFECOMP</booktitle>
+<url>db/conf/safecomp/safecomp2000.html#EvansM00</url>
+</inproceedings>
+<inproceedings mdate="2014-09-16" key="conf/safecomp/Lahtinen14">
+<author>Jussi Lahtinen</author>
+<title>Verification of Fault-Tolerant System Architectures Using Model Checking.</title>
+<pages>195-206</pages>
+<year>2014</year>
+<booktitle>SAFECOMP Workshops</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-319-10557-4_23</ee>
+<crossref>conf/safecomp/2014w</crossref>
+<url>db/conf/safecomp/safecomp2014w.html#Lahtinen14</url>
+</inproceedings>
+<inproceedings mdate="2011-06-17" key="conf/safecomp/Sacha98">
+<author>Krzysztof Sacha</author>
+<title>Safety Verification of Software Using Structured Petri Nets.</title>
+<pages>329-342</pages>
+<ee>http://dx.doi.org/10.1007/3-540-49646-7_26</ee>
+<year>1998</year>
+<crossref>conf/safecomp/1998</crossref>
+<booktitle>SAFECOMP</booktitle>
+<url>db/conf/safecomp/safecomp98.html#Sacha98</url>
+</inproceedings>
+<inproceedings mdate="2007-10-01" key="conf/safecomp/HosseiniT07">
+<author>S. M. Hadi Hosseini</author>
+<author>Makoto Takahashi</author>
+<title>Combining Static/Dynamic Fault Trees and Event Trees Using Bayesian Networks.</title>
+<pages>93-99</pages>
+<year>2007</year>
+<crossref>conf/safecomp/2007</crossref>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-540-75101-4_10</ee>
+<url>db/conf/safecomp/safecomp2007.html#HosseiniT07</url>
+</inproceedings>
+<inproceedings mdate="2014-09-16" key="conf/safecomp/NostroMCGMB14">
+<author>Nicola Nostro</author>
+<author>Ilaria Matteucci</author>
+<author>Andrea Ceccarelli</author>
+<author>Felicita Di Giandomenico</author>
+<author>Fabio Martinelli</author>
+<author>Andrea Bondavalli</author>
+<title>On Security Countermeasures Ranking through Threat Analysis.</title>
+<pages>243-254</pages>
+<year>2014</year>
+<booktitle>SAFECOMP Workshops</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-319-10557-4_27</ee>
+<crossref>conf/safecomp/2014w</crossref>
+<url>db/conf/safecomp/safecomp2014w.html#NostroMCGMB14</url>
+</inproceedings>
+<inproceedings mdate="2010-08-17" key="conf/safecomp/AlexanderssonOK10">
+<author>Ruben Alexandersson</author>
+<author>Peter &Ouml;hman</author>
+<author>Johan Karlsson</author>
+<title>Aspect-Oriented Implementation of Fault Tolerance: An Assessment of Overhead.</title>
+<pages>466-479</pages>
+<year>2010</year>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-642-15651-9_34</ee>
+<crossref>conf/safecomp/2010</crossref>
+<url>db/conf/safecomp/safecomp2010.html#AlexanderssonOK10</url>
+</inproceedings>
+<inproceedings mdate="2007-10-01" key="conf/safecomp/ParkLCKJK07">
+<author>Gee-Yong Park</author>
+<author>Jang-Soo Lee</author>
+<author>Se Woo Cheon</author>
+<author>Kee-Choon Kwon</author>
+<author>Eunkyoung Jee</author>
+<author>Kwang Yong Koh</author>
+<title>Safety Analysis of Safety-Critical Software for Nuclear Digital Protection System.</title>
+<pages>148-161</pages>
+<year>2007</year>
+<crossref>conf/safecomp/2007</crossref>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-540-75101-4_15</ee>
+<url>db/conf/safecomp/safecomp2007.html#ParkLCKJK07</url>
+</inproceedings>
+<inproceedings mdate="2011-06-20" key="conf/safecomp/KuballMH99">
+<author>Silke Kuball</author>
+<author>John H. R. May</author>
+<author>Gordon Hughes</author>
+<title>Structural Software Reliability Estimation.</title>
+<pages>336-349</pages>
+<year>1999</year>
+<crossref>conf/safecomp/1999</crossref>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/3-540-48249-0_29</ee>
+<url>db/conf/safecomp/safecomp99.html#KuballMH99</url>
+</inproceedings>
+<inproceedings mdate="2009-09-06" key="conf/safecomp/FazaSM09">
+<author>Ayman Z. Faza</author>
+<author>Sahra Sedigh</author>
+<author>Bruce M. McMillin</author>
+<title>Reliability Analysis for the Advanced Electric Power Grid: From Cyber Control and Communication to Physical Manifestations of Failure.</title>
+<pages>257-269</pages>
+<year>2009</year>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-642-04468-7_21</ee>
+<crossref>conf/safecomp/2009</crossref>
+<url>db/conf/safecomp/safecomp2009.html#FazaSM09</url>
+</inproceedings>
+<inproceedings mdate="2012-05-22" key="conf/safecomp/KaiserG04">
+<author>Bernhard Kaiser</author>
+<author>Catharina Gramlich</author>
+<title>State-Event-Fault-Trees - A Safety Analysis Model for Software Controlled Systems.</title>
+<pages>195-209</pages>
+<ee>http://dx.doi.org/10.1007/978-3-540-30138-7_17</ee>
+<year>2004</year>
+<crossref>conf/safecomp/2004</crossref>
+<booktitle>SAFECOMP</booktitle>
+<url>db/conf/safecomp/safecomp2004.html#KaiserG04</url>
+</inproceedings>
+<inproceedings mdate="2011-06-20" key="conf/safecomp/RogninB99">
+<author>Laurence Rognin</author>
+<author>Jean-Paul Blanquart</author>
+<title>Impact of Communication on Systems Dependability: Human Factors Perspectives.</title>
+<pages>113-124</pages>
+<year>1999</year>
+<crossref>conf/safecomp/1999</crossref>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/3-540-48249-0_11</ee>
+<url>db/conf/safecomp/safecomp99.html#RogninB99</url>
+</inproceedings>
+<inproceedings mdate="2014-02-18" key="conf/safecomp/DolevKPS13">
+<author>Shlomi Dolev</author>
+<author>Lukasz Krzywiecki</author>
+<author>Nisha Panwar</author>
+<author>Michael Segal</author>
+<title>Certificating Vehicle Public Key with Vehicle Attributes A (periodical) Licensing Routine, Against Man-in-the-Middle Attacks and Beyond.</title>
+<year>2013</year>
+<booktitle>ASCoMS@SAFECOMP</booktitle>
+<ee>http://hal.archives-ouvertes.fr/SAFECOMP2013-ASCOMS/hal-00848083</ee>
+<crossref>conf/safecomp/2013ascoms</crossref>
+<url>db/conf/safecomp/ascoms2013.html#DolevKPS13</url>
+</inproceedings>
+<inproceedings mdate="2006-11-06" key="conf/safecomp/Garsva06">
+<author>Eimantas Garsva</author>
+<title>Computer System Survivability Modelling by Using Stochastic Activity Network.</title>
+<pages>71-84</pages>
+<year>2006</year>
+<crossref>conf/safecomp/2006</crossref>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/11875567_6</ee>
+<url>db/conf/safecomp/safecomp2006.html#Garsva06</url>
+</inproceedings>
+<inproceedings mdate="2012-09-08" key="conf/safecomp/BragaJBNL12">
+<author>Rosana T. Vaccare Braga</author>
+<author>Onofre Trindade J&uacute;nior</author>
+<author>Kalinka Regina Lucas Jaquie Castelo Branco</author>
+<author>Luciano de Oliveira Neris</author>
+<author>Jaejoon Lee</author>
+<title>Adapting a Software Product Line Engineering Process for Certifying Safety Critical Embedded Systems.</title>
+<pages>352-363</pages>
+<year>2012</year>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-642-33678-2_30</ee>
+<crossref>conf/safecomp/2012</crossref>
+<url>db/conf/safecomp/safecomp2012.html#BragaJBNL12</url>
+</inproceedings>
+<inproceedings mdate="2012-09-11" key="conf/safecomp/SkjonsfjellNSS12">
+<author>Marte E. B. Skj&oslash;nsfjell</author>
+<author>Aslak R. Normann</author>
+<author>Dag Sjong</author>
+<author>Amund Skavhaug</author>
+<title>Addressing the Needs of an Aging Population: An Experiment for Monitoring Behaviour in a Domestic Environment.</title>
+<pages>436-446</pages>
+<year>2012</year>
+<booktitle>SAFECOMP Workshops</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-642-33675-1_41</ee>
+<crossref>conf/safecomp/2012w</crossref>
+<url>db/conf/safecomp/safecomp2012w.html#SkjonsfjellNSS12</url>
+</inproceedings>
+<inproceedings mdate="2012-09-07" key="conf/safecomp/CasalsOD12">
+<author>Silvia Gil Casals</author>
+<author>Philippe Owezarski</author>
+<author>Gilles Descargues</author>
+<title>Risk Assessment for Airworthiness Security.</title>
+<pages>25-36</pages>
+<year>2012</year>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-642-33678-2_3</ee>
+<crossref>conf/safecomp/2012</crossref>
+<url>db/conf/safecomp/safecomp2012.html#CasalsOD12</url>
+</inproceedings>
+<inproceedings mdate="2011-09-08" key="conf/safecomp/FeliciMST11">
+<author>Massimo Felici</author>
+<author>Valentino Meduri</author>
+<author>Bj&oslash;rnar Solhaug</author>
+<author>Alessandra Tedeschi</author>
+<title>Evolutionary Risk Analysis: Expert Judgement.</title>
+<pages>99-112</pages>
+<year>2011</year>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-642-24270-0_8</ee>
+<crossref>conf/safecomp/2011</crossref>
+<url>db/conf/safecomp/safecomp2011.html#FeliciMST11</url>
+</inproceedings>
+<inproceedings mdate="2009-09-06" key="conf/safecomp/GruberAS09">
+<author>Thomas Gruber</author>
+<author>Egbert Althammer</author>
+<author>Erwin Schoitsch</author>
+<title>Safety Requirements for a Cooperative Traffic Management System: The Human Interface Perspective.</title>
+<pages>159-172</pages>
+<year>2009</year>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-642-04468-7_14</ee>
+<crossref>conf/safecomp/2009</crossref>
+<url>db/conf/safecomp/safecomp2009.html#GruberAS09</url>
+</inproceedings>
+<inproceedings mdate="2011-06-20" key="conf/safecomp/EamesM99">
+<author>David Peter Eames</author>
+<author>Jonathan D. Moffett</author>
+<title>The Integration of Safety and Security Requirements.</title>
+<pages>468-480</pages>
+<year>1999</year>
+<crossref>conf/safecomp/1999</crossref>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/3-540-48249-0_40</ee>
+<url>db/conf/safecomp/safecomp99.html#EamesM99</url>
+</inproceedings>
+<inproceedings mdate="2012-06-22" key="conf/safecomp/YooCSKL04">
+<author>Junbeom Yoo</author>
+<author>Sung Deok Cha</author>
+<author>Han Seong Son</author>
+<author>Chang Hwoi Kim</author>
+<author>Jang-Soo Lee</author>
+<title>PLC-Based Safety Critical Software Development for Nuclear Power Plants.</title>
+<pages>155-165</pages>
+<ee>http://dx.doi.org/10.1007/978-3-540-30138-7_14</ee>
+<year>2004</year>
+<crossref>conf/safecomp/2004</crossref>
+<booktitle>SAFECOMP</booktitle>
+<url>db/conf/safecomp/safecomp2004.html#YooCSKL04</url>
+</inproceedings>
+<inproceedings mdate="2006-11-06" key="conf/safecomp/LeeLCMK06">
+<author>Jang-Soo Lee</author>
+<author>Arndt Lindner</author>
+<author>Jong-Gyun Choi</author>
+<author>Horst Miedl</author>
+<author>Kee-Choon Kwon</author>
+<title>Software Safety Lifecycles and the Methods of a Programmable Electronic Safety System for a Nuclear Power Plant.</title>
+<pages>85-98</pages>
+<year>2006</year>
+<crossref>conf/safecomp/2006</crossref>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/11875567_7</ee>
+<url>db/conf/safecomp/safecomp2006.html#LeeLCMK06</url>
+</inproceedings>
+<proceedings mdate="2007-10-01" key="conf/safecomp/2007">
+<editor>Francesca Saglietti</editor>
+<editor>Norbert Oster</editor>
+<title>Computer Safety, Reliability, and Security, 26th International Conference, SAFECOMP 2007, Nuremberg, Germany, September 18-21, 2007.</title>
+<booktitle>SAFECOMP</booktitle>
+<series href="db/journals/lncs.html">Lecture Notes in Computer Science</series>
+<volume>4680</volume>
+<publisher>Springer</publisher>
+<year>2007</year>
+<isbn>978-3-540-75100-7</isbn>
+<url>db/conf/safecomp/safecomp2007.html</url>
+</proceedings>
+
+<inproceedings mdate="2007-10-01" key="conf/safecomp/BasagiannisKP07">
+<author>Stylianos Basagiannis</author>
+<author>Panagiotis Katsaros</author>
+<author>Andrew Pombortsis</author>
+<title>Intrusion Attack Tactics for the Model Checking of e-Commerce Security Guarantees.</title>
+<pages>238-251</pages>
+<year>2007</year>
+<crossref>conf/safecomp/2007</crossref>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-540-75101-4_22</ee>
+<url>db/conf/safecomp/safecomp2007.html#BasagiannisKP07</url>
+</inproceedings>
+<inproceedings mdate="2013-08-27" key="conf/safecomp/MasciACLST13">
+<author>Paolo Masci</author>
+<author>Anaheed Ayoub</author>
+<author>Paul Curzon</author>
+<author>Insup Lee</author>
+<author>Oleg Sokolsky</author>
+<author>Harold W. Thimbleby</author>
+<title>Model-Based Development of the Generic PCA Infusion Pump User Interface Prototype in PVS.</title>
+<pages>228-240</pages>
+<year>2013</year>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-642-40793-2_21</ee>
+<crossref>conf/safecomp/2013</crossref>
+<url>db/conf/safecomp/safecomp2013.html#MasciACLST13</url>
+</inproceedings>
+<inproceedings mdate="2011-06-21" key="conf/safecomp/Schenk00">
+<author>Andreas Schenk</author>
+<title>SIMATIC S7-400F/FH: Safety-Related Programmable Logic Controller.</title>
+<pages>286-293</pages>
+<ee>http://dx.doi.org/10.1007/3-540-40891-6_25</ee>
+<year>2000</year>
+<crossref>conf/safecomp/2000</crossref>
+<booktitle>SAFECOMP</booktitle>
+<url>db/conf/safecomp/safecomp2000.html#Schenk00</url>
+</inproceedings>
+<inproceedings mdate="2013-08-27" key="conf/safecomp/DenneyP13">
+<author>Ewen Denney</author>
+<author>Ganesh Pai</author>
+<title>A Formal Basis for Safety Case Patterns.</title>
+<pages>21-32</pages>
+<year>2013</year>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-642-40793-2_3</ee>
+<crossref>conf/safecomp/2013</crossref>
+<url>db/conf/safecomp/safecomp2013.html#DenneyP13</url>
+</inproceedings>
+<inproceedings mdate="2009-09-06" key="conf/safecomp/ZulkernineRU09">
+<author>Mohammad Zulkernine</author>
+<author>Mohammad Feroz Raihan</author>
+<author>Mohammad Gias Uddin</author>
+<title>Towards Model-Based Automatic Testing of Attack Scenarios.</title>
+<pages>229-242</pages>
+<year>2009</year>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-642-04468-7_19</ee>
+<crossref>conf/safecomp/2009</crossref>
+<url>db/conf/safecomp/safecomp2009.html#ZulkernineRU09</url>
+</inproceedings>
+<inproceedings mdate="2011-06-21" key="conf/safecomp/Johnson00a">
+<author>Chris Johnson</author>
+<title>Forensic Software Engineering and the Need for New Approaches to Accident Investigation.</title>
+<pages>420-429</pages>
+<ee>http://dx.doi.org/10.1007/3-540-40891-6_36</ee>
+<year>2000</year>
+<crossref>conf/safecomp/2000</crossref>
+<booktitle>SAFECOMP</booktitle>
+<url>db/conf/safecomp/safecomp2000.html#Johnson00a</url>
+</inproceedings>
+<inproceedings mdate="2011-09-08" key="conf/safecomp/BernardiFMMPV11">
+<author>Simona Bernardi</author>
+<author>Francesco Flammini</author>
+<author>Stefano Marrone</author>
+<author>Jos&eacute; Merseguer</author>
+<author>Camilla Papa</author>
+<author>Valeria Vittorini</author>
+<title>Model-Driven Availability Evaluation of Railway Control Systems.</title>
+<pages>15-28</pages>
+<year>2011</year>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-642-24270-0_2</ee>
+<crossref>conf/safecomp/2011</crossref>
+<url>db/conf/safecomp/safecomp2011.html#BernardiFMMPV11</url>
+</inproceedings>
+<inproceedings mdate="2011-06-28" key="conf/safecomp/MackelH01">
+<author>Oliver M&auml;ckel</author>
+<author>Georg Hoever</author>
+<title>Analyzing Human-Machine Interactions in Safety-Critical Systems: A Basic Applicable Approach.</title>
+<pages>92-99</pages>
+<year>2001</year>
+<crossref>conf/safecomp/2001</crossref>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/3-540-45416-0_10</ee>
+<url>db/conf/safecomp/safecomp2001.html#MackelH01</url>
+</inproceedings>
+<inproceedings mdate="2013-11-22" key="conf/safecomp/AngelisGL03">
+<author>George Angelis</author>
+<author>Stefanos Gritzalis</author>
+<author>Costas Lambrinoudakis</author>
+<title>Security Policy Configuration Issues in Grid Computing Environments.</title>
+<pages>331-341</pages>
+<year>2003</year>
+<crossref>conf/safecomp/2003</crossref>
+<booktitle>SAFECOMP</booktitle>
+<url>db/conf/safecomp/safecomp2003.html#AngelisGL03</url>
+</inproceedings>
+<inproceedings mdate="2007-10-01" key="conf/safecomp/MottokSVZ07">
+<author>J&uuml;rgen Mottok</author>
+<author>Frank Schiller</author>
+<author>Thomas V&ouml;lkl</author>
+<author>Thomas Zeitler</author>
+<title>A Concept for a Safe Realization of a State Machine in Embedded Automotive Applications.</title>
+<pages>283-288</pages>
+<year>2007</year>
+<crossref>conf/safecomp/2007</crossref>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-540-75101-4_28</ee>
+<url>db/conf/safecomp/safecomp2007.html#MottokSVZ07</url>
+</inproceedings>
+<inproceedings mdate="2012-09-11" key="conf/safecomp/LjungkrantzLBEK12">
+<author>Oscar Ljungkrantz</author>
+<author>Henrik L&ouml;nn</author>
+<author>Hans Blom</author>
+<author>Cecilia Ekelin</author>
+<author>Daniel Karlsson</author>
+<title>Modelling of Safety-Related Timing Constraints for Automotive Embedded Systems.</title>
+<pages>190-201</pages>
+<year>2012</year>
+<booktitle>SAFECOMP Workshops</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-642-33675-1_17</ee>
+<crossref>conf/safecomp/2012w</crossref>
+<url>db/conf/safecomp/safecomp2012w.html#LjungkrantzLBEK12</url>
+</inproceedings>
+<inproceedings mdate="2006-11-06" key="conf/safecomp/SzpyrkaS06">
+<author>Marcin Szpyrka</author>
+<author>Tomasz Szmuc</author>
+<title>Verification of Automatic Train Protection Systems with RTCP-Nets.</title>
+<pages>344-357</pages>
+<year>2006</year>
+<crossref>conf/safecomp/2006</crossref>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/11875567_26</ee>
+<url>db/conf/safecomp/safecomp2006.html#SzpyrkaS06</url>
+</inproceedings>
+<inproceedings mdate="2008-10-02" key="conf/safecomp/TrawczynskiSG08">
+<author>Dawid Trawczynski</author>
+<author>Janusz Sosnowski</author>
+<author>Piotr Gawkowski</author>
+<title>Analyzing Fault Susceptibility of ABS Microcontroller.</title>
+<pages>360-372</pages>
+<year>2008</year>
+<booktitle>SAFECOMP</booktitle>
+<ee>http://dx.doi.org/10.1007/978-3-540-87698-4_30</ee>
+<crossref>conf/safecomp/2008</crossref>
+<url>db/conf/safecomp/safecomp2008.html#TrawczynskiSG08</url>
+</inproceedings>
+<www mdate="2005-10-06" key="persons/Ley93">
+<author>Michael Ley</author>
+<title>DBLP.uni-trier.de: Computer Science Bibliography</title>
+<url>http://dblp.uni-trier.de/</url>
+<year>1993</year>
+</www>
+
+<www mdate="2009-06-09" key="homepages/23/2478">
+<author>Barbara M. Terhal</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-07-29" key="homepages/23/7193">
+<author>Hidenori Takeuchi</author>
+<title>Home Page</title>
+</www>
+<www mdate="2010-04-13" key="homepages/23/7968">
+<author>Oliver Zheng</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/5238">
+<author>Nagendra Modadugu</author>
+<title>Home Page</title>
+</www>
+<www mdate="2010-09-15" key="homepages/23/8444">
+<author>V. Ostahov</author>
+<title>Home Page</title>
+</www>
+<www mdate="2010-09-27" key="homepages/23/8527">
+<author>Mun-ho Ryu</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/1104">
+<author>Vincenzo Ciaschini</author>
+<title>Home Page</title>
+</www>
+<www mdate="2011-09-11" key="homepages/23/10091">
+<author>Haoyu Bai</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/2230">
+<author>Syusuke Sone</author>
+<title>Home Page</title>
+</www>
+<www mdate="2012-03-22" key="homepages/23/11098">
+<author>Paula E. Naidu</author>
+<title>Home Page</title>
+</www>
+<www mdate="2012-05-15" key="homepages/23/11354">
+<author>Michael Niedeggen</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-09-17" key="homepages/23/7348">
+<author>C. Chui</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/4987">
+<author>G. W. Hartzell III</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-09-25" key="homepages/23/7390">
+<author>Robert Thielke</author>
+<title>Home Page</title>
+</www>
+<www mdate="2012-06-23" key="homepages/23/9598">
+<author>Jeffrey Wain</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-08" key="homepages/23/314">
+<author>Hideo Aiso</author>
+<title>Home Page</title>
+</www>
+<www mdate="2011-02-17" key="homepages/23/9141">
+<author>Donna Rein</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/4025">
+<author>Daniela Saccol Peranconi</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/976">
+<author>Huiying Liang</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-09-10" key="homepages/23/7298">
+<author>Hazem Abdallah</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/1485">
+<author>D. O. Whiteson</author>
+<title>Home Page</title>
+</www>
+<www mdate="2010-12-03" key="homepages/23/8787">
+<author>Koji Nishimura</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/3086">
+<author>Taejin Ha</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/5932">
+<author>Martin Tschofen</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/3961">
+<author>John Savage</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/4891">
+<author>Megan Davis</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/3957">
+<author>Stephen Fitchett</author>
+<title>Home Page</title>
+</www>
+<www mdate="2011-08-22" key="homepages/23/9979">
+<author>Rodolfo A. Silva</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/4443">
+<author>Man Wang</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/1033">
+<author>Olga Zvereva</author>
+<title>Home Page</title>
+</www>
+<www mdate="2011-03-15" key="homepages/23/9282">
+<author>Katsuhiko Hayashi</author>
+<title>Home Page</title>
+</www>
+<www mdate="2010-07-01" key="homepages/23/8246">
+<author>Rimma Pivovarov</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/1870">
+<author>Ivan Guilherme</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/464">
+<author>Rafael Aleixandre</author>
+<title>Home Page</title>
+</www>
+<www mdate="2011-10-29" key="homepages/23/10344">
+<author>Jen-Yu Han</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/1059">
+<author>C. R. Suribabu</author>
+<title>Home Page</title>
+</www>
+<www mdate="2011-08-04" key="homepages/23/9885">
+<author>Nile Oldham</author>
+<title>Home Page</title>
+</www>
+<www mdate="2011-02-28" key="homepages/23/9214">
+<author>Timothy G. Ferris</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/3938">
+<author>Song Lei</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/551">
+<author>J. D. Allen Jr.</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/5521">
+<author>Marc A. Adams</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/5944">
+<author>A. Iossa</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/3279">
+<author>D. V. Chudnovsky</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/3946">
+<author>Tieu Chieu</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/4983">
+<author>Martin Jakob</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/4032">
+<author>Yan Qin</author>
+<title>Home Page</title>
+</www>
+<www mdate="2012-03-28" key="homepages/23/176">
+<author>Eugenia Kovatcheva</author>
+<author>Eugenia Petrova Kovatcheva</author>
+<title>Home Page</title>
+</www>
+<www mdate="2012-04-18" key="homepages/23/11176">
+<author>Afroza Sultana</author>
+<title>Home Page</title>
+</www>
+<www mdate="2012-03-05" key="homepages/23/10988">
+<author>Igor Dolinsek</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/6464">
+<author>Marek E. Bialkowski</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-10" key="homepages/23/4731">
+<author>Gordon Kurtenbach</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/1131">
+<author>James C. Owings</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/934">
+<author>Gudrun Wagner</author>
+<title>Home Page</title>
+</www>
+<www mdate="2009-06-09" key="homepages/23/378">
+<author>Maximilian Walther</author>
+<title>Home Page</title>
+</www>
+
+</dblp>

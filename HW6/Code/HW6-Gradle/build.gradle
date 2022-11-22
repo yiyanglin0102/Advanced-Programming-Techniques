@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation group: 'org.apache.lucene', name: 'lucene-queryparser', version: '8.2.0'
+    implementation group: 'org.apache.lucene', name: 'lucene-core', version: '8.2.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes (
+                'Main-Class': 'org.example.LuceneMain'
+        )
+    }
+}
+
+apply plugin:'java'
+apply plugin:'application'
+
+jar{
+    manifestContentCharset 'utf-8'
+    metadataCharset 'utf-8'
+    manifest{
+        attributes "Main-Class":"org.example.LuceneMain"
+    }
+}
+
+group 'org.example'
