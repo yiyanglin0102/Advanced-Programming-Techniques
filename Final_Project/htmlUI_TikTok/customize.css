@@ -1,0 +1,36 @@
+.card,
+.btn,
+.nav {
+  border-radius: 0;
+}
+.navbar,
+nav {
+  background-color: rgba(38, 62, 57, 1);
+}
+.navbar-nav > li > .dropdown-menu {
+  background-color: #76d06e;
+}
+.nav-link {
+  color: #76d06eec !important;
+}
+
+.navbar-brand {
+  color: #76d06eec !important;
+}
+.jumbotron {
+  background-color: #76d06eec;
+}
+
+#bottom-jumbotron {
+  background-color: rgba(38, 62, 57, 1);
+  padding: 1em inherit;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #76d06eec;
+}
+
+#cardText {
+  background-color: rgba(38, 62, 57, 1);
+  padding: 1em inherit;
+}
