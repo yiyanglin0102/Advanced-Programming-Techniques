@@ -1,0 +1,1 @@
+cd htmlUI_YT/ ; python3 Download.py $1 & cd .. ; cd htmlUI_TikTok/ ; python3 Download.py $1 & cd ../ ; cd htmlUI_YT/ ; python3 Download.py $1 & cd .. ; open index.html

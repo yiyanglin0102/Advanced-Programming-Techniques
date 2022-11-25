@@ -14,8 +14,8 @@ from bs4 import BeautifulSoup
 
 subprocess.run(('rm -rf 0 1 2 3 4 5 6 7 8 9'), shell=True)
 
-# keyWord = 'love'
-keyWord = sys.argv[1]
+# keyword = 'love'
+keyword = sys.argv[1]
 
 
 def saveFullHtmlPage(url, pagepath='page', session=requests.Session(), html=None):
@@ -52,9 +52,9 @@ def saveFullHtmlPage(url, pagepath='page', session=requests.Session(), html=None
     with open(path+'.html', 'wb') as file: # saves modified html doc
         file.write(soup.prettify('utf-8'))
 
-saveFullHtmlPage('https://www.youtube.com/results?search_query=' + keyWord, keyWord)
+saveFullHtmlPage('https://www.youtube.com/results?search_query=' + keyword, keyword)
 
-with open(keyWord + ".html") as fp:
+with open(keyword + ".html") as fp:
         soup = BeautifulSoup(fp, 'html.parser')
 
 # "videoIds": ["
@@ -85,8 +85,8 @@ for i in range(len(videos)):
 #     videos[i] = "youtube.com/watch?v=" + videos[i]
 videos
 
-subprocess.run(('rm '+ keyWord + '.html'), shell=True)
-subprocess.run(('rm -rf '+ keyWord + '_files'), shell=True)
+subprocess.run(('rm '+ keyword + '.html'), shell=True)
+subprocess.run(('rm -rf '+ keyword + '_files'), shell=True)
 
 
 # In[10]:

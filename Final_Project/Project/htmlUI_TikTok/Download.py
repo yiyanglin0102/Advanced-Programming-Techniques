@@ -11,8 +11,8 @@ import os, sys, re, subprocess, requests, numpy as np
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
-keyword = 'airplane'
-# keyword = sys.argv[1]
+# keyword = 'airplane'
+keyword = sys.argv[1]
 
 subprocess.run(('rm -rf 0 1 2 3 4 5 6 7 8 9'), shell=True)
 

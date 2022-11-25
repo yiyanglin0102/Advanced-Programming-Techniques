@@ -1,4 +1,4 @@
-let object = {link0:"https://www.youtube.com/watch?v=9jLN8MQRQh0", link1:"https://www.youtube.com/watch?v=yj2oWUUpzaU", link2:"https://www.youtube.com/watch?v=K3aFXf74UO4", link3:"https://www.youtube.com/watch?v=HQl-agd384E", link4:"https://www.youtube.com/watch?v=2HPZ3hyVL7Q", link5:"https://www.youtube.com/watch?v=Mba_Uezk_3o", link6:"https://www.youtube.com/watch?v=f-RqOTTSThI", link7:"https://www.youtube.com/watch?v=254BlITxpUs", link8:"https://www.youtube.com/watch?v=GoHM5V9C-H0", link9:"https://www.youtube.com/watch?v=iyFe0M0zQ0g"}
+let object = {link0:"https://www.youtube.com/watch?v=9tuBjI2gmV0", link1:"https://www.youtube.com/watch?v=Pd_2HaGybwY", link2:"https://www.youtube.com/watch?v=rZVpo5HbDf8", link3:"https://www.youtube.com/watch?v=oX0Yt1bw9XQ", link4:"https://www.youtube.com/watch?v=V4tAtp-TyzQ", link5:"https://www.youtube.com/watch?v=ngMm87S3zdQ", link6:"https://www.youtube.com/watch?v=J458dHqrYdc", link7:"https://www.youtube.com/watch?v=rjo84GFP50g", link8:"https://www.youtube.com/watch?v=07d2dXHYb94", link9:"https://www.youtube.com/watch?v=3U-BxX58i7E"}
 
 
 function function0() {
