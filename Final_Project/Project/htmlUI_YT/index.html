@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="TikTok Video Clips" />
+  <meta name="description" content="Youtube Video Clips" />
   <meta name="author" content="Yi-Yang Lin" />
   <title>Video Search</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
@@ -16,15 +16,38 @@
   <body>
     <nav class="navbar navbar-expand-sm navbar-light">
 
-      <a class="navbar-brand" href="home.html">
+      <a class="navbar-brand" href="../index.html">
         <img src="/icon.png" width="auto" height="50" alt="" />
       </a>
-      <a class="navbar-brand" href="home.html">Video Search</a>
+      <a class="navbar-brand" href="../index.html">Video Search</a>
 
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="btn btn-outline-primary mr-sm-2">
+            <a
+            href="./index.html"
+            class="nav-link"
+            >Youtube</a
+          >
+          </li>
+          <li class="btn btn-outline-success mr-sm-2">
+            <a
+            href="../htmlUI_IG/index.html"
+            class="nav-link"
+            >Instagram</a
+          >
+          </li>
+          <li class="btn btn-outline-success  mr-sm-2">
+            <a
+              href="../htmlUI_TikTok/index.html"
+              class="nav-link"
+              >TikTok</a
+            >
+          </li>
+        </ul>
       <form class="form-inline">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
       </form>
@@ -35,10 +58,11 @@
     </nav>
 
     <div class="container">
+      <h3>Youtube Videos</h3>
       <div class="card">
 
         <div class="card-body">
-          <h3 class="card-title">TikTok Videos</h4>
+          <h4 class="card-title">Videos</h4>
 
           <!-- HOVERABLE -->
           <table class="table table-hover">
@@ -52,10 +76,10 @@
             </thead>
             <tbody>
               <tr>
-                <!-- <th scope="row">Rick Astley - Never Gonna Give You Up (Official Music Video)</th> -->
+                <th scope="row">Rick Astley - Never Gonna Give You Up (Official Music Video)</th>
                 <td>
                   <img id="image0" src="./0/images.gif" onerror="this.onerror=null; 
-                 this.src='loading.gif'" alt="" width="180" height="135"></td>
+                 this.src='loading.gif'" alt="" width="120" height="90"></td>
                 </td>
                 <!-- <td>1000</td> -->
                 <td>
@@ -67,10 +91,10 @@
                 </td>
               </tr>
               <tr>
-                <!-- <th scope="row">Video Title</th> -->
+                <th scope="row">Video Title</th>
                 <td>
                   <img id="image1" src="./1/images.gif" onerror="this.onerror=null; 
-                  this.src='loading.gif'" alt="" width="180" height="135">
+                  this.src='loading.gif'" alt="" width="120" height="90">
                 </td>
                 <!-- <td>1000</td> -->
                 <td>
@@ -80,9 +104,9 @@
                 </td>
               </tr>
               <tr>
-                <!-- <th scope="row">Badger Flix</th> -->
+                <th scope="row">Badger Flix</th>
                 <td><img id="image2" src="./2/images.gif" onerror="this.onerror=null; 
-                  this.src='loading.gif'" alt="" width="180" height="135"></td>
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
                 <!-- <td>2354</td> -->
                 <td>
                   <button class="btn btn-danger" onclick="function2()" data-toggle="modal" data-target="#endSub">
@@ -91,9 +115,9 @@
                 </td>
               </tr>
               <tr>
-                <!-- <th scope="row">Badger Prime</th> -->
+                <th scope="row">Badger Prime</th>
                 <td><img id="image3" src="./3/images.gif" onerror="this.onerror=null; 
-                  this.src='loading.gif'" alt="" width="180" height="135"></td>
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
                 <!-- <td>99999</td> -->
                 <td>
                   <button class="btn btn-danger" onclick="function3()" data-toggle="modal" data-target="#endSub">
@@ -102,9 +126,9 @@
                 </td>
               </tr>
               <tr>
-                <!-- <th scope="row">Bucky's Cheese Club</th> -->
+                <th scope="row">Bucky's Cheese Club</th>
                 <td><img id="image4" src="./4/images.gif" onerror="this.onerror=null; 
-                  this.src='loading.gif'" alt="" width="180" height="135"></td>
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
                 <!-- <td>1111</td> -->
                 <td>
                   <button class="btn btn-danger" onclick="function4()" data-toggle="modal" data-target="#endSub">
@@ -113,9 +137,9 @@
                 </td>
               </tr>
               <tr>
-                <!-- <th scope="row">Holy Cow</th> -->
+                <th scope="row">Holy Cow</th>
                 <td><img id="image5" src="./5/images.gif" onerror="this.onerror=null; 
-                  this.src='loading.gif'" alt="" width="180" height="135"></td>
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
                 <!-- <td>77777</td> -->
                 <td>
                   <button class="btn btn-danger" onclick="function5()" data-toggle="modal" data-target="#endSub">
@@ -124,9 +148,9 @@
                 </td>
               </tr>
               <tr>
-                <!-- <th scope="row">Holy Cow</th> -->
+                <th scope="row">Holy Cow</th>
                 <td><img id="image6" src="./6/images.gif" onerror="this.onerror=null; 
-                  this.src='loading.gif'" alt="" width="180" height="135"></td>
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
                 <!-- <td>77777</td> -->
                 <td>
                   <button class="btn btn-danger" onclick="function6()" data-toggle="modal" data-target="#endSub">
@@ -135,9 +159,9 @@
                 </td>
               </tr>
               <tr>
-                <!-- <th scope="row">Holy Cow</th> -->
+                <th scope="row">Holy Cow</th>
                 <td><img id="image7" src="./7/images.gif" onerror="this.onerror=null; 
-                  this.src='loading.gif'" alt="" width="180" height="135"></td>
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
                 <!-- <td>77777</td> -->
                 <td>
                   <button class="btn btn-danger" onclick="function7()" data-toggle="modal" data-target="#endSub">
@@ -146,9 +170,9 @@
                 </td>
               </tr>
               <tr>
-                <!-- <th scope="row">Holy Cow</th> -->
+                <th scope="row">Holy Cow</th>
                 <td><img id="image8" src="./8/images.gif" onerror="this.onerror=null; 
-                  this.src='loading.gif'" alt="" width="180" height="135"></td>
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
                 <!-- <td>77777</td> -->
                 <td>
                   <button class="btn btn-danger" onclick="function8()" data-toggle="modal" data-target="#endSub">
@@ -157,9 +181,9 @@
                 </td>
               </tr>
               <tr>
-                <!-- <th scope="row">Holy Cow</th> -->
+                <th scope="row">Holy Cow</th>
                 <td><img id="image9" src="./9/images.gif" onerror="this.onerror=null; 
-                  this.src='loading.gif'" alt="" width="180" height="135"></td>
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
                 <!-- <td>77777</td> -->
                 <td>
                   <button class="btn btn-danger" onclick="function9()" data-toggle="modal" data-target="#endSub">
