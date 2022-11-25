@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[31]:
 
 
 #!/usr/bin/env python
@@ -11,8 +11,8 @@ import os, sys, re, subprocess, requests, numpy as np
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
-keyword = 'car'
-# keyWord = sys.argv[1]
+keyword = 'airplane'
+# keyword = sys.argv[1]
 
 subprocess.run(('rm -rf 0 1 2 3 4 5 6 7 8 9'), shell=True)
 
@@ -51,80 +51,77 @@ def saveFullHtmlPage(url, pagepath='page', session=requests.Session(), html=None
     with open(path+'.html', 'wb') as file: # saves modified html doc
         file.write(soup.prettify('utf-8'))
 
-saveFullHtmlPage('https://www.tiktok.com/discover/Car-Videos?lang=en', keyword)
+saveFullHtmlPage('https://www.tiktok.com/tag/' + keyword , keyword)
 
 
 
-# In[2]:
+# In[32]:
 
 
 with open(keyword + ".html") as fp:
-        soup = BeautifulSoup(fp, 'html.parser')
+    soup = BeautifulSoup(fp, 'html.parser')
 
-# "videoIds": ["
-# soup.find_all('a')[1]
+videos = []
+tags = soup.body.find_all('div')[1].find_all("a")
+for link in tags:
+    if "video" in str(link.get('href')) and "www.tiktok.com" in str(link.get('href')):
+        videos.append(str(link.get('href')))
 
-# soup.find("a", class="tiktok-dtihlr-DivVideoSection e1uqcilo4")
-a = soup.body.find_all('div')[1].find_all("a", class_="tiktok-1rzor5f-StyledVideoLink e1uqcilo1")
+
+# In[33]:
+
+
+videos
+
+
+# In[34]:
 
 
 subprocess.run(('rm '+ keyword + '.html'), shell=True)
 subprocess.run(('rm -rf '+ keyword + '_files'), shell=True)
 
 
-videos = []
-
-for link in a:
-    videos.append("https://www.tiktok.com" + link.get('href'))
-    print("https://www.tiktok.com" + link.get('href'))
-    
-    
-    
-
-
-# In[3]:
+# In[35]:
 
 
 videos = videos[:10]
 videos
 
 
-# In[4]:
+# In[36]:
+
+
+def delete_first_line(filename):
+    with open(filename, 'r') as fin:
+        data = fin.read().splitlines(True)
+    with open(filename, 'w') as fout:
+        fout.writelines(data[1:])
+        
+def line_prepender(filename, line):
+    with open(filename, 'r+') as f:
+        content = f.read()
+        f.seek(0, 0)
+        f.write(line.rstrip('\r\n') + '\n' + content)
+        
+s = "let object = {link0:\""+videos[0]+"\", link1:\""+videos[1]+"\", link2:\""+videos[2]+"\", link3:\""+videos[3]+"\", link4:\""+videos[4]+"\", link5:\""+videos[5]+"\", link6:\""+videos[6]+"\", link7:\""+videos[7]+"\", link8:\""+videos[8]+"\", link9:\""+videos[9]+"\"}"
+        
+delete_first_line("script.js")
+line_prepender("script.js", s)
+
+
+# In[ ]:
 
 
 # subprocess.run('python3 -m tiktok_downloader --url https://www.tiktok.com/@sneakyhero93/video/7159191712911363334 --snaptik --save tiktok.mp4', shell=True)
 
 
 
-# In[8]:
+# In[ ]:
 
 
 for i in range(10):
     subprocess.run('mkdir '+ str(i) + '; cd ' + str(i) + '; echo "import subprocess\nsubprocess.run(\'python3 -m tiktok_downloader --url '+videos[i]+' --snaptik --save tiktok.mp4 '+'; scenedetect --input *.mp4 detect-content save-images; magick *.jpg images.gif; rm -rf *.jpg\', shell=True)" > ' + str(i) + '.py; '
                 , shell=True)
-# for i in range(10):
-#     p = subprocess.Popen('cd ' + str(i) + '; python3 ' + str(i) + '.py', stdout=subprocess.PIPE, shell=True)
-    
-# subprocess.run('cd 0; python3 0.py', shell=True)
-# subprocess.run('cd 1; python3 1.py', shell=True)
-# subprocess.run('cd 2; python3 2.py', shell=True)
-# subprocess.run('cd 3; python3 3.py', shell=True)
-# subprocess.run('cd 4; python3 4.py', shell=True)
-# subprocess.run('cd 5; python3 5.py', shell=True)
-# subprocess.run('cd 6; python3 6.py', shell=True)
-# subprocess.run('cd 7; python3 7.py', shell=True)
-# subprocess.run('cd 8; python3 8.py', shell=True)
-# subprocess.run('cd 9; python3 9.py', shell=True)
-
-# p2 = subprocess.Popen('cd 1; python3 1.py', stdout=subprocess.PIPE, shell=True)
-# subprocess.Popen('cd 2; python3 2.py', stdout=subprocess.PIPE, shell=True)
-# subprocess.Popen('cd 3; python3 3.py', stdout=subprocess.PIPE, shell=True)
-# subprocess.Popen('cd 4; python3 4.py', stdout=subprocess.PIPE, shell=True)
-# subprocess.Popen('cd 5; python3 5.py', stdout=subprocess.PIPE, shell=True)
-# subprocess.Popen('cd 6; python3 6.py', stdout=subprocess.PIPE, shell=True)
-# subprocess.Popen('cd 7; python3 7.py', stdout=subprocess.PIPE, shell=True)
-
-
 
 
 # In[ ]:
