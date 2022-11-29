@@ -17,7 +17,7 @@ subprocess.run(('rm -rf 0 1 2 3 4 5 6 7 8 9'), shell=True)
 
 inputString = sys.argv[1]
 keyword = '#' + inputString
-p = subprocess.Popen('instaloader --login=yiyanglin0102 --password=@A129572120 --post-filter="is_video" ' + '\"' + keyword + '\"', stdout=subprocess.PIPE, shell=True)
+p = subprocess.Popen('instaloader --login=yiyanglin0102 --password=@CS622 --post-filter="is_video" ' + '\"' + keyword + '\"', stdout=subprocess.PIPE, shell=True)
 
 path = os.getcwd() + "/" + keyword
 

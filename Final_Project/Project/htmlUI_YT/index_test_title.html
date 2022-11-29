@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Youtube Video Clips" />
+  <meta name="author" content="Yi-Yang Lin" />
+  <title>Video Search</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="customize.css" />
+</head>
+<main>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-light">
+
+      <a class="navbar-brand" href="../index.html">
+        <img src="/icon.png" width="auto" height="50" alt="" />
+      </a>
+      <a class="navbar-brand" href="../index.html">Video Search</a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="btn btn-outline-primary mr-sm-2">
+            <a
+            href="./index.html"
+            class="nav-link"
+            >Youtube</a
+          >
+          </li>
+          <li class="btn btn-outline-success mr-sm-2">
+            <a
+            href="../htmlUI_IG/index.html"
+            class="nav-link"
+            >Instagram</a
+          >
+          </li>
+          <li class="btn btn-outline-success  mr-sm-2">
+            <a
+              href="../htmlUI_TikTok/index.html"
+              class="nav-link"
+              >TikTok</a
+            >
+          </li>
+        </ul>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+      </form>
+      <button class="btn btn-outline-success" type="submit">
+        Search
+      </button>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h3>Youtube Videos</h3>
+      <div class="card">
+
+        <div class="card-body">
+          <h4 class="card-title">Videos</h4>
+
+          <!-- HOVERABLE -->
+          <table class="table table-hover">
+            <thead>
+              <tr>
+
+                <th>Title</th>
+                <th>Clips</th>
+                <!-- <th>Views</th> -->
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" id="titles0"></th>
+                <td>
+                  <img id="image0" src="./0/images.gif" onerror="this.onerror=null; 
+                 this.src='loading.gif'" alt="" width="120" height="90"></td>
+                </td>
+                <!-- <td>1000</td> -->
+                <td>
+
+                  <button class="btn btn-danger" onclick="function0()" data-toggle="modal" data-target="#endSub">
+                    Go to Video Link
+                  </button>
+
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" id="titles1"></th>
+                <td>
+                  <img id="image1" src="./1/images.gif" onerror="this.onerror=null; 
+                  this.src='loading.gif'" alt="" width="120" height="90">
+                </td>
+                <!-- <td>1000</td> -->
+                <td>
+                  <button class="btn btn-danger" onclick="function1()" data-toggle="modal" data-target="#endSub">
+                    Go to Video Link
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" id="titles2"></th>
+                <td><img id="image2" src="./2/images.gif" onerror="this.onerror=null; 
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
+                <!-- <td>2354</td> -->
+                <td>
+                  <button class="btn btn-danger" onclick="function2()" data-toggle="modal" data-target="#endSub">
+                    Go to Video Link
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" id="titles3"></th>
+                <td><img id="image3" src="./3/images.gif" onerror="this.onerror=null; 
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
+                <!-- <td>99999</td> -->
+                <td>
+                  <button class="btn btn-danger" onclick="function3()" data-toggle="modal" data-target="#endSub">
+                    Go to Video Link
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" id="titles4"></th>
+                <td><img id="image4" src="./4/images.gif" onerror="this.onerror=null; 
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
+                <!-- <td>1111</td> -->
+                <td>
+                  <button class="btn btn-danger" onclick="function4()" data-toggle="modal" data-target="#endSub">
+                    Go to Video Link
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" id="titles5"></th>
+                <td><img id="image5" src="./5/images.gif" onerror="this.onerror=null; 
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
+                <!-- <td>77777</td> -->
+                <td>
+                  <button class="btn btn-danger" onclick="function5()" data-toggle="modal" data-target="#endSub">
+                    Go to Video Link
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" id="titles6"></th>
+                <td><img id="image6" src="./6/images.gif" onerror="this.onerror=null; 
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
+                <!-- <td>77777</td> -->
+                <td>
+                  <button class="btn btn-danger" onclick="function6()" data-toggle="modal" data-target="#endSub">
+                    Go to Video Link
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" id="titles7"></th>
+                <td><img id="image7" src="./7/images.gif" onerror="this.onerror=null; 
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
+                <!-- <td>77777</td> -->
+                <td>
+                  <button class="btn btn-danger" onclick="function7()" data-toggle="modal" data-target="#endSub">
+                    Go to Video Link
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" id="titles8"></th>
+                <td><img id="image8" src="./8/images.gif" onerror="this.onerror=null; 
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
+                <!-- <td>77777</td> -->
+                <td>
+                  <button class="btn btn-danger" onclick="function8()" data-toggle="modal" data-target="#endSub">
+                    Go to Video Link
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" id="titles9"></th>
+                <td><img id="image9" src="./9/images.gif" onerror="this.onerror=null; 
+                  this.src='loading.gif'" alt="" width="120" height="90"></td>
+                <!-- <td>77777</td> -->
+                <td>
+                  <button class="btn btn-danger" onclick="function9()" data-toggle="modal" data-target="#endSub">
+                    Go to Video Link
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <br />
+
+
+    <a class="btn btn-dark btn-block" href="#">Back to top</a>
+    <div class="jumbotron jumbotron-fluid text-white mb-auto" id="bottom-jumbotron">
+      <div class="container-fluid">
+        <p class="lead">
+        <footer>&copy; 2022 Video Search. All Rights Reserved.</footer>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- <script src="links.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"></script>
+  </body>
+</main>
+
+</html>
