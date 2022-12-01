@@ -23,7 +23,7 @@ In this assignment, we are seeking for the performance of utilizing Apache Lucen
 
 ```
 
-The workspace is structured in follwing:
+The workspace is structured in following:
 
 - `/Code` : a folder to maintain source codes.
     - `LuceneMain.java` : In this file, it will create index cache mapping to each line of strings. At the next time, when a token is searched, it will be significantly save time because of tracing the string index from space.

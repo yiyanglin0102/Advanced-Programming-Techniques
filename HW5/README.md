@@ -20,7 +20,7 @@ Start executing Java codes in `main()` methods in `MongoDB.java` and `MySQL.java
 └── README.md
 ```
 
-The workspace is structured in follwing:
+The workspace is structured in following:
 
 - `/Code` : a folder to maintain source codes.
     - `MongoDB.java` : In this file, it will first start reading the provided `sameple.xml` file, and generate a database `DBLP` in `MongoDB` on local server. Once it connects to the server, then start creating 3 tables - `WWW`, `PHDTHESIS`, and `INPROCEEDINGS`. After that, executing `query1()` and `query2()` to querying information.

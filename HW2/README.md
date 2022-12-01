@@ -22,7 +22,7 @@ Start executing java codes in `Makefile` with its following targets - `merge`, `
 
 ```
 
-The workspace is structured in follwing:
+The workspace is structured in following:
 
 - `/Code` : a folder to maintain source codes.
     - `Merge.java` : In this file, it catches inputs from `args` to gain  arguements from command-line, the first argument is the merged file, the second file and the files after second are the component files. After merging files in one, it also adds indexes shown at the first columns.

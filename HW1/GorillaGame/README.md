@@ -4,7 +4,7 @@ Start executing java codes in `Main.java` - `main()` file.
 
 ## Folder Structure
 
-The workspace is structured in the follwing:
+The workspace is structured in the following:
 
 - `src`: the folder to maintain sources
     - `Main.java`: the app starts from this file, creating the characters that players would like to create and passing numbers to indicate each specific gorilla.
