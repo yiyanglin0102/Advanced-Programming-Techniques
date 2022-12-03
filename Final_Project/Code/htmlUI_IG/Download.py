@@ -70,7 +70,7 @@ line_prepender("script.js", s)
 
 
 for i in range(10):
-    subprocess.run('cd ' + str(i) + '; echo "import subprocess\nsubprocess.run(\'scenedetect --input *.mp4 detect-content save-images; magick *.jpg images.gif; rm -rf *.jpg\', shell=True)" > ' + str(i) + '.py; '
+    subprocess.run('cd ' + str(i) + '; echo "import subprocess\nsubprocess.run(\'scenedetect --input *.mp4 detect-content save-images; scenedetect --input *.mp4 detect-adaptive list-scenes split-video; magick *.jpg images.gif; rm -rf *.jpg\', shell=True)" > ' + str(i) + '.py; '
                 , shell=True)
 
 
